@@ -1,0 +1,527 @@
+{
+  "image_readable": true,
+  "shifts": [
+    {
+      "employee_name": "Kevin Zhang",
+      "clock_in_date": null,
+      "clock_in_time": "08:00:00",
+      "clock_out_date": null,
+      "clock_out_time": "16:00:00",
+      "job_assignment": "Bake",
+      "confidence": {
+        "employee_name": 0.97,
+        "clock_in_date": 0.5,
+        "clock_in_time": 0.9,
+        "clock_out_date": 0.5,
+        "clock_out_time": 0.9,
+        "job_assignment": 0.95
+      },
+      "meal_times": [],
+      "break_times": []
+    },
+    {
+      "employee_name": "Kevin Zhang",
+      "clock_in_date": null,
+      "clock_in_time": "08:00:00",
+      "clock_out_date": null,
+      "clock_out_time": "16:00:00",
+      "job_assignment": "Bake",
+      "confidence": {
+        "employee_name": 0.97,
+        "clock_in_date": 0.5,
+        "clock_in_time": 0.9,
+        "clock_out_date": 0.5,
+        "clock_out_time": 0.9,
+        "job_assignment": 0.95
+      },
+      "meal_times": [],
+      "break_times": []
+    },
+    {
+      "employee_name": "Kevin Zhang",
+      "clock_in_date": null,
+      "clock_in_time": "08:00:00",
+      "clock_out_date": null,
+      "clock_out_time": "16:00:00",
+      "job_assignment": "Bake",
+      "confidence": {
+        "employee_name": 0.97,
+        "clock_in_date": 0.5,
+        "clock_in_time": 0.9,
+        "clock_out_date": 0.5,
+        "clock_out_time": 0.9,
+        "job_assignment": 0.95
+      },
+      "meal_times": [],
+      "break_times": []
+    },
+    {
+      "employee_name": "Jasmine Grant",
+      "clock_in_date": null,
+      "clock_in_time": "07:00:00",
+      "clock_out_date": null,
+      "clock_out_time": "15:00:00",
+      "job_assignment": "Prod",
+      "confidence": {
+        "employee_name": 0.97,
+        "clock_in_date": 0.5,
+        "clock_in_time": 0.9,
+        "clock_out_date": 0.5,
+        "clock_out_time": 0.9,
+        "job_assignment": 0.95
+      },
+      "meal_times": [],
+      "break_times": []
+    },
+    {
+      "employee_name": "Jasmine Grant",
+      "clock_in_date": null,
+      "clock_in_time": "07:00:00",
+      "clock_out_date": null,
+      "clock_out_time": "15:00:00",
+      "job_assignment": "Deli",
+      "confidence": {
+        "employee_name": 0.97,
+        "clock_in_date": 0.5,
+        "clock_in_time": 0.9,
+        "clock_out_date": 0.5,
+        "clock_out_time": 0.9,
+        "job_assignment": 0.93
+      },
+      "meal_times": [],
+      "break_times": []
+    },
+    {
+      "employee_name": "Grace Nguyen",
+      "clock_in_date": null,
+      "clock_in_time": "08:00:00",
+      "clock_out_date": null,
+      "clock_out_time": "16:00:00",
+      "job_assignment": "Bake",
+      "confidence": {
+        "employee_name": 0.97,
+        "clock_in_date": 0.5,
+        "clock_in_time": 0.9,
+        "clock_out_date": 0.5,
+        "clock_out_time": 0.9,
+        "job_assignment": 0.95
+      },
+      "meal_times": [],
+      "break_times": []
+    },
+    {
+      "employee_name": "Grace Nguyen",
+      "clock_in_date": null,
+      "clock_in_time": "08:00:00",
+      "clock_out_date": null,
+      "clock_out_time": "16:00:00",
+      "job_assignment": "Bake",
+      "confidence": {
+        "employee_name": 0.97,
+        "clock_in_date": 0.5,
+        "clock_in_time": 0.9,
+        "clock_out_date": 0.5,
+        "clock_out_time": 0.9,
+        "job_assignment": 0.95
+      },
+      "meal_times": [],
+      "break_times": []
+    },
+    {
+      "employee_name": "Grace Nguyen",
+      "clock_in_date": null,
+      "clock_in_time": "08:00:00",
+      "clock_out_date": null,
+      "clock_out_time": "16:00:00",
+      "job_assignment": "Stock",
+      "confidence": {
+        "employee_name": 0.97,
+        "clock_in_date": 0.5,
+        "clock_in_time": 0.9,
+        "clock_out_date": 0.5,
+        "clock_out_time": 0.9,
+        "job_assignment": 0.95
+      },
+      "meal_times": [],
+      "break_times": []
+    },
+    {
+      "employee_name": "Grace Nguyen",
+      "clock_in_date": null,
+      "clock_in_time": "07:00:00",
+      "clock_out_date": null,
+      "clock_out_time": "15:00:00",
+      "job_assignment": "Bake",
+      "confidence": {
+        "employee_name": 0.97,
+        "clock_in_date": 0.5,
+        "clock_in_time": 0.9,
+        "clock_out_date": 0.5,
+        "clock_out_time": 0.9,
+        "job_assignment": 0.95
+      },
+      "meal_times": [],
+      "break_times": []
+    },
+    {
+      "employee_name": "Sofia Rossi",
+      "clock_in_date": null,
+      "clock_in_time": "09:00:00",
+      "clock_out_date": null,
+      "clock_out_time": "17:00:00",
+      "job_assignment": "CS",
+      "confidence": {
+        "employee_name": 0.97,
+        "clock_in_date": 0.5,
+        "clock_in_time": 0.9,
+        "clock_out_date": 0.5,
+        "clock_out_time": 0.9,
+        "job_assignment": 0.95
+      },
+      "meal_times": [],
+      "break_times": []
+    },
+    {
+      "employee_name": "Sofia Rossi",
+      "clock_in_date": null,
+      "clock_in_time": "09:00:00",
+      "clock_out_date": null,
+      "clock_out_time": "17:00:00",
+      "job_assignment": "CS",
+      "confidence": {
+        "employee_name": 0.97,
+        "clock_in_date": 0.5,
+        "clock_in_time": 0.9,
+        "clock_out_date": 0.5,
+        "clock_out_time": 0.9,
+        "job_assignment": 0.95
+      },
+      "meal_times": [],
+      "break_times": []
+    },
+    {
+      "employee_name": "Sofia Rossi",
+      "clock_in_date": null,
+      "clock_in_time": "09:00:00",
+      "clock_out_date": null,
+      "clock_out_time": "17:00:00",
+      "job_assignment": "Cash",
+      "confidence": {
+        "employee_name": 0.97,
+        "clock_in_date": 0.5,
+        "clock_in_time": 0.9,
+        "clock_out_date": 0.5,
+        "clock_out_time": 0.9,
+        "job_assignment": 0.95
+      },
+      "meal_times": [],
+      "break_times": []
+    },
+    {
+      "employee_name": "Sofia Rossi",
+      "clock_in_date": null,
+      "clock_in_time": "09:00:00",
+      "clock_out_date": null,
+      "clock_out_time": "17:00:00",
+      "job_assignment": "CS",
+      "confidence": {
+        "employee_name": 0.97,
+        "clock_in_date": 0.5,
+        "clock_in_time": 0.9,
+        "clock_out_date": 0.5,
+        "clock_out_time": 0.9,
+        "job_assignment": 0.95
+      },
+      "meal_times": [],
+      "break_times": []
+    },
+    {
+      "employee_name": "Sofia Rossi",
+      "clock_in_date": null,
+      "clock_in_time": "12:00:00",
+      "clock_out_date": null,
+      "clock_out_time": "20:00:00",
+      "job_assignment": "CS",
+      "confidence": {
+        "employee_name": 0.97,
+        "clock_in_date": 0.5,
+        "clock_in_time": 0.9,
+        "clock_out_date": 0.5,
+        "clock_out_time": 0.9,
+        "job_assignment": 0.95
+      },
+      "meal_times": [],
+      "break_times": []
+    },
+    {
+      "employee_name": "Jordan Taylor",
+      "clock_in_date": null,
+      "clock_in_time": "09:00:00",
+      "clock_out_date": null,
+      "clock_out_time": "17:00:00",
+      "job_assignment": "Cash",
+      "confidence": {
+        "employee_name": 0.97,
+        "clock_in_date": 0.5,
+        "clock_in_time": 0.9,
+        "clock_out_date": 0.5,
+        "clock_out_time": 0.9,
+        "job_assignment": 0.95
+      },
+      "meal_times": [],
+      "break_times": []
+    },
+    {
+      "employee_name": "Jordan Taylor",
+      "clock_in_date": null,
+      "clock_in_time": "07:00:00",
+      "clock_out_date": null,
+      "clock_out_time": "15:00:00",
+      "job_assignment": "Cash",
+      "confidence": {
+        "employee_name": 0.97,
+        "clock_in_date": 0.5,
+        "clock_in_time": 0.9,
+        "clock_out_date": 0.5,
+        "clock_out_time": 0.9,
+        "job_assignment": 0.95
+      },
+      "meal_times": [],
+      "break_times": []
+    },
+    {
+      "employee_name": "Jordan Taylor",
+      "clock_in_date": null,
+      "clock_in_time": "07:00:00",
+      "clock_out_date": null,
+      "clock_out_time": "15:00:00",
+      "job_assignment": "CS",
+      "confidence": {
+        "employee_name": 0.97,
+        "clock_in_date": 0.5,
+        "clock_in_time": 0.9,
+        "clock_out_date": 0.5,
+        "clock_out_time": 0.9,
+        "job_assignment": 0.95
+      },
+      "meal_times": [],
+      "break_times": []
+    },
+    {
+      "employee_name": "Jordan Taylor",
+      "clock_in_date": null,
+      "clock_in_time": "09:00:00",
+      "clock_out_date": null,
+      "clock_out_time": "17:00:00",
+      "job_assignment": "Cash",
+      "confidence": {
+        "employee_name": 0.97,
+        "clock_in_date": 0.5,
+        "clock_in_time": 0.9,
+        "clock_out_date": 0.5,
+        "clock_out_time": 0.9,
+        "job_assignment": 0.95
+      },
+      "meal_times": [],
+      "break_times": []
+    },
+    {
+      "employee_name": "Arjun Singh",
+      "clock_in_date": null,
+      "clock_in_time": "14:00:00",
+      "clock_out_date": null,
+      "clock_out_time": "22:00:00",
+      "job_assignment": "Prod",
+      "confidence": {
+        "employee_name": 0.97,
+        "clock_in_date": 0.5,
+        "clock_in_time": 0.9,
+        "clock_out_date": 0.5,
+        "clock_out_time": 0.9,
+        "job_assignment": 0.95
+      },
+      "meal_times": [],
+      "break_times": []
+    },
+    {
+      "employee_name": "Arjun Singh",
+      "clock_in_date": null,
+      "clock_in_time": "14:00:00",
+      "clock_out_date": null,
+      "clock_out_time": "22:00:00",
+      "job_assignment": "Bake",
+      "confidence": {
+        "employee_name": 0.97,
+        "clock_in_date": 0.5,
+        "clock_in_time": 0.9,
+        "clock_out_date": 0.5,
+        "clock_out_time": 0.9,
+        "job_assignment": 0.95
+      },
+      "meal_times": [],
+      "break_times": []
+    },
+    {
+      "employee_name": "Arjun Singh",
+      "clock_in_date": null,
+      "clock_in_time": "12:00:00",
+      "clock_out_date": null,
+      "clock_out_time": "20:00:00",
+      "job_assignment": "Prod",
+      "confidence": {
+        "employee_name": 0.97,
+        "clock_in_date": 0.5,
+        "clock_in_time": 0.9,
+        "clock_out_date": 0.5,
+        "clock_out_time": 0.9,
+        "job_assignment": 0.95
+      },
+      "meal_times": [],
+      "break_times": []
+    },
+    {
+      "employee_name": "Isabella Silva",
+      "clock_in_date": null,
+      "clock_in_time": "12:00:00",
+      "clock_out_date": null,
+      "clock_out_time": "20:00:00",
+      "job_assignment": "Prod",
+      "confidence": {
+        "employee_name": 0.97,
+        "clock_in_date": 0.5,
+        "clock_in_time": 0.9,
+        "clock_out_date": 0.5,
+        "clock_out_time": 0.9,
+        "job_assignment": 0.95
+      },
+      "meal_times": [],
+      "break_times": []
+    },
+    {
+      "employee_name": "Isabella Silva",
+      "clock_in_date": null,
+      "clock_in_time": "12:00:00",
+      "clock_out_date": null,
+      "clock_out_time": "20:00:00",
+      "job_assignment": "Prod",
+      "confidence": {
+        "employee_name": 0.97,
+        "clock_in_date": 0.5,
+        "clock_in_time": 0.9,
+        "clock_out_date": 0.5,
+        "clock_out_time": 0.9,
+        "job_assignment": 0.95
+      },
+      "meal_times": [],
+      "break_times": []
+    },
+    {
+      "employee_name": "Isabella Silva",
+      "clock_in_date": null,
+      "clock_in_time": "08:00:00",
+      "clock_out_date": null,
+      "clock_out_time": "16:00:00",
+      "job_assignment": "Prod",
+      "confidence": {
+        "employee_name": 0.97,
+        "clock_in_date": 0.5,
+        "clock_in_time": 0.9,
+        "clock_out_date": 0.5,
+        "clock_out_time": 0.9,
+        "job_assignment": 0.95
+      },
+      "meal_times": [],
+      "break_times": []
+    },
+    {
+      "employee_name": "Isabella Silva",
+      "clock_in_date": null,
+      "clock_in_time": "12:00:00",
+      "clock_out_date": null,
+      "clock_out_time": "20:00:00",
+      "job_assignment": "Prod",
+      "confidence": {
+        "employee_name": 0.97,
+        "clock_in_date": 0.5,
+        "clock_in_time": 0.9,
+        "clock_out_date": 0.5,
+        "clock_out_time": 0.9,
+        "job_assignment": 0.95
+      },
+      "meal_times": [],
+      "break_times": []
+    },
+    {
+      "employee_name": "Isabella Silva",
+      "clock_in_date": null,
+      "clock_in_time": "08:00:00",
+      "clock_out_date": null,
+      "clock_out_time": "16:00:00",
+      "job_assignment": "Bake",
+      "confidence": {
+        "employee_name": 0.97,
+        "clock_in_date": 0.5,
+        "clock_in_time": 0.9,
+        "clock_out_date": 0.5,
+        "clock_out_time": 0.9,
+        "job_assignment": 0.95
+      },
+      "meal_times": [],
+      "break_times": []
+    },
+    {
+      "employee_name": "Leah Cohen",
+      "clock_in_date": null,
+      "clock_in_time": "08:00:00",
+      "clock_out_date": null,
+      "clock_out_time": "16:00:00",
+      "job_assignment": "Stock",
+      "confidence": {
+        "employee_name": 0.97,
+        "clock_in_date": 0.5,
+        "clock_in_time": 0.9,
+        "clock_out_date": 0.5,
+        "clock_out_time": 0.9,
+        "job_assignment": 0.95
+      },
+      "meal_times": [],
+      "break_times": []
+    },
+    {
+      "employee_name": "Leah Cohen",
+      "clock_in_date": null,
+      "clock_in_time": "12:00:00",
+      "clock_out_date": null,
+      "clock_out_time": "20:00:00",
+      "job_assignment": "Stock",
+      "confidence": {
+        "employee_name": 0.97,
+        "clock_in_date": 0.5,
+        "clock_in_time": 0.9,
+        "clock_out_date": 0.5,
+        "clock_out_time": 0.9,
+        "job_assignment": 0.95
+      },
+      "meal_times": [],
+      "break_times": []
+    },
+    {
+      "employee_name": "Leah Cohen",
+      "clock_in_date": null,
+      "clock_in_time": "12:00:00",
+      "clock_out_date": null,
+      "clock_out_time": "20:00:00",
+      "job_assignment": "Stock",
+      "confidence": {
+        "employee_name": 0.97,
+        "clock_in_date": 0.5,
+        "clock_in_time": 0.9,
+        "clock_out_date": 0.5,
+        "clock_out_time": 0.9,
+        "job_assignment": 0.95
+      },
+      "meal_times": [],
+      "break_times": []
+    }
+  ]
+}

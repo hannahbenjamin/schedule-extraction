@@ -1,0 +1,275 @@
+{
+  "image_readable": true,
+  "shifts": [
+    {
+      "employee_name": "Mateo Dubois",
+      "clock_in_date": "2026-11-09",
+      "clock_in_time": "15:00:00",
+      "clock_out_date": "2026-11-09",
+      "clock_out_time": "23:00:00",
+      "job_assignment": "Supervisor",
+      "confidence": {
+        "employee_name": 0.99,
+        "clock_in_date": 0.99,
+        "clock_in_time": 0.98,
+        "clock_out_date": 0.99,
+        "clock_out_time": 0.98,
+        "job_assignment": 0.98
+      },
+      "meal_times": [],
+      "break_times": []
+    },
+    {
+      "employee_name": "Mateo Dubois",
+      "clock_in_date": "2026-11-10",
+      "clock_in_time": "07:00:00",
+      "clock_out_date": "2026-11-10",
+      "clock_out_time": "15:00:00",
+      "job_assignment": "Supervisor",
+      "confidence": {
+        "employee_name": 0.99,
+        "clock_in_date": 0.99,
+        "clock_in_time": 0.98,
+        "clock_out_date": 0.99,
+        "clock_out_time": 0.98,
+        "job_assignment": 0.98
+      },
+      "meal_times": [],
+      "break_times": []
+    },
+    {
+      "employee_name": "Mateo Dubois",
+      "clock_in_date": "2026-11-11",
+      "clock_in_time": "15:00:00",
+      "clock_out_date": "2026-11-11",
+      "clock_out_time": "23:00:00",
+      "job_assignment": "Supervisor",
+      "confidence": {
+        "employee_name": 0.99,
+        "clock_in_date": 0.99,
+        "clock_in_time": 0.98,
+        "clock_out_date": 0.99,
+        "clock_out_time": 0.98,
+        "job_assignment": 0.98
+      },
+      "meal_times": [],
+      "break_times": []
+    },
+    {
+      "employee_name": "Mateo Dubois",
+      "clock_in_date": "2026-11-14",
+      "clock_in_time": "15:00:00",
+      "clock_out_date": "2026-11-14",
+      "clock_out_time": "23:00:00",
+      "job_assignment": "Supervisor",
+      "confidence": {
+        "employee_name": 0.99,
+        "clock_in_date": 0.99,
+        "clock_in_time": 0.98,
+        "clock_out_date": 0.99,
+        "clock_out_time": 0.98,
+        "job_assignment": 0.98
+      },
+      "meal_times": [],
+      "break_times": []
+    },
+    {
+      "employee_name": "Mateo Dubois",
+      "clock_in_date": "2026-11-15",
+      "clock_in_time": "23:00:00",
+      "clock_out_date": "2026-11-16",
+      "clock_out_time": "07:00:00",
+      "job_assignment": "Supervisor",
+      "confidence": {
+        "employee_name": 0.99,
+        "clock_in_date": 0.99,
+        "clock_in_time": 0.98,
+        "clock_out_date": 0.95,
+        "clock_out_time": 0.98,
+        "job_assignment": 0.98
+      },
+      "meal_times": [],
+      "break_times": []
+    },
+    {
+      "employee_name": "Hana Ali",
+      "clock_in_date": "2026-11-09",
+      "clock_in_time": "09:00:00",
+      "clock_out_date": "2026-11-09",
+      "clock_out_time": "17:00:00",
+      "job_assignment": "Deli",
+      "confidence": {
+        "employee_name": 0.99,
+        "clock_in_date": 0.99,
+        "clock_in_time": 0.98,
+        "clock_out_date": 0.99,
+        "clock_out_time": 0.98,
+        "job_assignment": 0.98
+      },
+      "meal_times": [],
+      "break_times": []
+    },
+    {
+      "employee_name": "Hana Ali",
+      "clock_in_date": "2026-11-12",
+      "clock_in_time": "15:00:00",
+      "clock_out_date": "2026-11-12",
+      "clock_out_time": "23:00:00",
+      "job_assignment": "Deli",
+      "confidence": {
+        "employee_name": 0.99,
+        "clock_in_date": 0.99,
+        "clock_in_time": 0.98,
+        "clock_out_date": 0.99,
+        "clock_out_time": 0.98,
+        "job_assignment": 0.98
+      },
+      "meal_times": [],
+      "break_times": []
+    },
+    {
+      "employee_name": "Hana Ali",
+      "clock_in_date": "2026-11-13",
+      "clock_in_time": "07:00:00",
+      "clock_out_date": "2026-11-13",
+      "clock_out_time": "15:00:00",
+      "job_assignment": "Deli",
+      "confidence": {
+        "employee_name": 0.99,
+        "clock_in_date": 0.99,
+        "clock_in_time": 0.98,
+        "clock_out_date": 0.99,
+        "clock_out_time": 0.98,
+        "job_assignment": 0.98
+      },
+      "meal_times": [],
+      "break_times": []
+    },
+    {
+      "employee_name": "Hana Ali",
+      "clock_in_date": "2026-11-15",
+      "clock_in_time": "07:00:00",
+      "clock_out_date": "2026-11-15",
+      "clock_out_time": "15:00:00",
+      "job_assignment": "Deli",
+      "confidence": {
+        "employee_name": 0.99,
+        "clock_in_date": 0.99,
+        "clock_in_time": 0.98,
+        "clock_out_date": 0.99,
+        "clock_out_time": 0.98,
+        "job_assignment": 0.98
+      },
+      "meal_times": [],
+      "break_times": []
+    },
+    {
+      "employee_name": "Noah Kowalski",
+      "clock_in_date": "2026-11-09",
+      "clock_in_time": "12:00:00",
+      "clock_out_date": "2026-11-09",
+      "clock_out_time": "20:00:00",
+      "job_assignment": "Supervisor",
+      "confidence": {
+        "employee_name": 0.99,
+        "clock_in_date": 0.99,
+        "clock_in_time": 0.98,
+        "clock_out_date": 0.99,
+        "clock_out_time": 0.98,
+        "job_assignment": 0.98
+      },
+      "meal_times": [],
+      "break_times": []
+    },
+    {
+      "employee_name": "Noah Kowalski",
+      "clock_in_date": "2026-11-10",
+      "clock_in_time": "15:00:00",
+      "clock_out_date": "2026-11-10",
+      "clock_out_time": "23:00:00",
+      "job_assignment": "Supervisor",
+      "confidence": {
+        "employee_name": 0.99,
+        "clock_in_date": 0.99,
+        "clock_in_time": 0.98,
+        "clock_out_date": 0.99,
+        "clock_out_time": 0.98,
+        "job_assignment": 0.98
+      },
+      "meal_times": [],
+      "break_times": []
+    },
+    {
+      "employee_name": "Noah Kowalski",
+      "clock_in_date": "2026-11-11",
+      "clock_in_time": "15:00:00",
+      "clock_out_date": "2026-11-11",
+      "clock_out_time": "23:00:00",
+      "job_assignment": "Supervisor",
+      "confidence": {
+        "employee_name": 0.99,
+        "clock_in_date": 0.99,
+        "clock_in_time": 0.98,
+        "clock_out_date": 0.99,
+        "clock_out_time": 0.98,
+        "job_assignment": 0.98
+      },
+      "meal_times": [],
+      "break_times": []
+    },
+    {
+      "employee_name": "Noah Kowalski",
+      "clock_in_date": "2026-11-12",
+      "clock_in_time": "23:00:00",
+      "clock_out_date": "2026-11-13",
+      "clock_out_time": "07:00:00",
+      "job_assignment": "Supervisor",
+      "confidence": {
+        "employee_name": 0.99,
+        "clock_in_date": 0.99,
+        "clock_in_time": 0.98,
+        "clock_out_date": 0.95,
+        "clock_out_time": 0.98,
+        "job_assignment": 0.98
+      },
+      "meal_times": [],
+      "break_times": []
+    },
+    {
+      "employee_name": "Noah Kowalski",
+      "clock_in_date": "2026-11-13",
+      "clock_in_time": "09:00:00",
+      "clock_out_date": "2026-11-13",
+      "clock_out_time": "17:00:00",
+      "job_assignment": "Supervisor",
+      "confidence": {
+        "employee_name": 0.99,
+        "clock_in_date": 0.99,
+        "clock_in_time": 0.98,
+        "clock_out_date": 0.99,
+        "clock_out_time": 0.98,
+        "job_assignment": 0.98
+      },
+      "meal_times": [],
+      "break_times": []
+    },
+    {
+      "employee_name": "Noah Kowalski",
+      "clock_in_date": "2026-11-14",
+      "clock_in_time": "07:00:00",
+      "clock_out_date": "2026-11-14",
+      "clock_out_time": "15:00:00",
+      "job_assignment": "Supervisor",
+      "confidence": {
+        "employee_name": 0.99,
+        "clock_in_date": 0.99,
+        "clock_in_time": 0.98,
+        "clock_out_date": 0.99,
+        "clock_out_time": 0.98,
+        "job_assignment": 0.98
+      },
+      "meal_times": [],
+      "break_times": []
+    }
+  ]
+}
