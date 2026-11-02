@@ -1,0 +1,609 @@
+{
+  "schedule_id": "S03",
+  "source_type": "screenshot of spreadsheet",
+  "difficulty": "easy-medium",
+  "layout": "rows=employees, cols=days; job AND time in the same cell ('Pharm Tech 08:00-16:00')",
+  "time_format": "24h HH:MM-HH:MM",
+  "test_conditions": [
+    "UI chrome / row numbers / column letters to ignore",
+    "title row inside the grid",
+    "per-shift job changes (job is per cell, not per employee)",
+    "blank = off",
+    "VAC highlighted",
+    "numeric M/D dates"
+  ],
+  "week_start": "2026-11-16",
+  "dates_visible_on_schedule": true,
+  "employee_count": 12,
+  "shift_count": 40,
+  "shifts": [
+    {
+      "employee_name": "Priya Patel",
+      "clock_in_date": "2026-11-16",
+      "clock_in_time": "08:00:00",
+      "clock_out_date": "2026-11-16",
+      "clock_out_time": "16:00:00",
+      "job_assignment": "Stock",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Mon",
+      "_eval_overnight": false
+    },
+    {
+      "employee_name": "Priya Patel",
+      "clock_in_date": "2026-11-18",
+      "clock_in_time": "13:00:00",
+      "clock_out_date": "2026-11-18",
+      "clock_out_time": "21:00:00",
+      "job_assignment": "Stock",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Wed",
+      "_eval_overnight": false
+    },
+    {
+      "employee_name": "Priya Patel",
+      "clock_in_date": "2026-11-20",
+      "clock_in_time": "13:00:00",
+      "clock_out_date": "2026-11-20",
+      "clock_out_time": "21:00:00",
+      "job_assignment": "Stock",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Fri",
+      "_eval_overnight": false
+    },
+    {
+      "employee_name": "Arjun Singh",
+      "clock_in_date": "2026-11-16",
+      "clock_in_time": "09:00:00",
+      "clock_out_date": "2026-11-16",
+      "clock_out_time": "17:00:00",
+      "job_assignment": "Pharmacist",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Mon",
+      "_eval_overnight": false
+    },
+    {
+      "employee_name": "Arjun Singh",
+      "clock_in_date": "2026-11-20",
+      "clock_in_time": "08:00:00",
+      "clock_out_date": "2026-11-20",
+      "clock_out_time": "12:00:00",
+      "job_assignment": "Pharmacist",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Fri",
+      "_eval_overnight": false
+    },
+    {
+      "employee_name": "Hannah Lee",
+      "clock_in_date": "2026-11-16",
+      "clock_in_time": "08:00:00",
+      "clock_out_date": "2026-11-16",
+      "clock_out_time": "16:00:00",
+      "job_assignment": "Cashier",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Mon",
+      "_eval_overnight": false
+    },
+    {
+      "employee_name": "Hannah Lee",
+      "clock_in_date": "2026-11-17",
+      "clock_in_time": "13:00:00",
+      "clock_out_date": "2026-11-17",
+      "clock_out_time": "21:00:00",
+      "job_assignment": "Pharm Tech",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Tue",
+      "_eval_overnight": false
+    },
+    {
+      "employee_name": "Hannah Lee",
+      "clock_in_date": "2026-11-18",
+      "clock_in_time": "08:00:00",
+      "clock_out_date": "2026-11-18",
+      "clock_out_time": "16:00:00",
+      "job_assignment": "Cashier",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Wed",
+      "_eval_overnight": false
+    },
+    {
+      "employee_name": "Hannah Lee",
+      "clock_in_date": "2026-11-19",
+      "clock_in_time": "13:00:00",
+      "clock_out_date": "2026-11-19",
+      "clock_out_time": "21:00:00",
+      "job_assignment": "Pharm Tech",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Thu",
+      "_eval_overnight": false
+    },
+    {
+      "employee_name": "Ethan Roy",
+      "clock_in_date": "2026-11-16",
+      "clock_in_time": "09:00:00",
+      "clock_out_date": "2026-11-16",
+      "clock_out_time": "17:00:00",
+      "job_assignment": "Cashier",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Mon",
+      "_eval_overnight": false
+    },
+    {
+      "employee_name": "Ethan Roy",
+      "clock_in_date": "2026-11-17",
+      "clock_in_time": "09:00:00",
+      "clock_out_date": "2026-11-17",
+      "clock_out_time": "17:00:00",
+      "job_assignment": "Cashier",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Tue",
+      "_eval_overnight": false
+    },
+    {
+      "employee_name": "Ethan Roy",
+      "clock_in_date": "2026-11-18",
+      "clock_in_time": "09:00:00",
+      "clock_out_date": "2026-11-18",
+      "clock_out_time": "17:00:00",
+      "job_assignment": "Cashier",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Wed",
+      "_eval_overnight": false
+    },
+    {
+      "employee_name": "Ethan Roy",
+      "clock_in_date": "2026-11-19",
+      "clock_in_time": "09:00:00",
+      "clock_out_date": "2026-11-19",
+      "clock_out_time": "17:00:00",
+      "job_assignment": "Cashier",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Thu",
+      "_eval_overnight": false
+    },
+    {
+      "employee_name": "Emily Wong",
+      "clock_in_date": "2026-11-16",
+      "clock_in_time": "10:00:00",
+      "clock_out_date": "2026-11-16",
+      "clock_out_time": "18:00:00",
+      "job_assignment": "Cosmetics",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Mon",
+      "_eval_overnight": false
+    },
+    {
+      "employee_name": "Emily Wong",
+      "clock_in_date": "2026-11-17",
+      "clock_in_time": "08:00:00",
+      "clock_out_date": "2026-11-17",
+      "clock_out_time": "16:00:00",
+      "job_assignment": "Cosmetics",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Tue",
+      "_eval_overnight": false
+    },
+    {
+      "employee_name": "Emily Wong",
+      "clock_in_date": "2026-11-19",
+      "clock_in_time": "10:00:00",
+      "clock_out_date": "2026-11-19",
+      "clock_out_time": "18:00:00",
+      "job_assignment": "Cashier",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Thu",
+      "_eval_overnight": false
+    },
+    {
+      "employee_name": "Emily Wong",
+      "clock_in_date": "2026-11-20",
+      "clock_in_time": "08:00:00",
+      "clock_out_date": "2026-11-20",
+      "clock_out_time": "16:00:00",
+      "job_assignment": "Cosmetics",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Fri",
+      "_eval_overnight": false
+    },
+    {
+      "employee_name": "Ben Thompson",
+      "clock_in_date": "2026-11-16",
+      "clock_in_time": "10:00:00",
+      "clock_out_date": "2026-11-16",
+      "clock_out_time": "18:00:00",
+      "job_assignment": "Cosmetics",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Mon",
+      "_eval_overnight": false
+    },
+    {
+      "employee_name": "Ben Thompson",
+      "clock_in_date": "2026-11-17",
+      "clock_in_time": "10:00:00",
+      "clock_out_date": "2026-11-17",
+      "clock_out_time": "18:00:00",
+      "job_assignment": "Pharm Tech",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Tue",
+      "_eval_overnight": false
+    },
+    {
+      "employee_name": "Ben Thompson",
+      "clock_in_date": "2026-11-18",
+      "clock_in_time": "10:00:00",
+      "clock_out_date": "2026-11-18",
+      "clock_out_time": "18:00:00",
+      "job_assignment": "Pharm Tech",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Wed",
+      "_eval_overnight": false
+    },
+    {
+      "employee_name": "Ben Thompson",
+      "clock_in_date": "2026-11-19",
+      "clock_in_time": "13:00:00",
+      "clock_out_date": "2026-11-19",
+      "clock_out_time": "21:00:00",
+      "job_assignment": "Pharmacist",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Thu",
+      "_eval_overnight": false
+    },
+    {
+      "employee_name": "Ben Thompson",
+      "clock_in_date": "2026-11-20",
+      "clock_in_time": "10:00:00",
+      "clock_out_date": "2026-11-20",
+      "clock_out_time": "18:00:00",
+      "job_assignment": "Pharm Tech",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Fri",
+      "_eval_overnight": false
+    },
+    {
+      "employee_name": "Marcus Brown",
+      "clock_in_date": "2026-11-16",
+      "clock_in_time": "10:00:00",
+      "clock_out_date": "2026-11-16",
+      "clock_out_time": "18:00:00",
+      "job_assignment": "Cosmetics",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Mon",
+      "_eval_overnight": false
+    },
+    {
+      "employee_name": "Marcus Brown",
+      "clock_in_date": "2026-11-18",
+      "clock_in_time": "10:00:00",
+      "clock_out_date": "2026-11-18",
+      "clock_out_time": "18:00:00",
+      "job_assignment": "Cosmetics",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Wed",
+      "_eval_overnight": false
+    },
+    {
+      "employee_name": "Marcus Brown",
+      "clock_in_date": "2026-11-20",
+      "clock_in_time": "09:00:00",
+      "clock_out_date": "2026-11-20",
+      "clock_out_time": "17:00:00",
+      "job_assignment": "Cosmetics",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Fri",
+      "_eval_overnight": false
+    },
+    {
+      "employee_name": "Amara Okafor",
+      "clock_in_date": "2026-11-16",
+      "clock_in_time": "13:00:00",
+      "clock_out_date": "2026-11-16",
+      "clock_out_time": "21:00:00",
+      "job_assignment": "Cashier",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Mon",
+      "_eval_overnight": false
+    },
+    {
+      "employee_name": "Amara Okafor",
+      "clock_in_date": "2026-11-17",
+      "clock_in_time": "08:00:00",
+      "clock_out_date": "2026-11-17",
+      "clock_out_time": "12:00:00",
+      "job_assignment": "Cashier",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Tue",
+      "_eval_overnight": false
+    },
+    {
+      "employee_name": "Amara Okafor",
+      "clock_in_date": "2026-11-18",
+      "clock_in_time": "08:00:00",
+      "clock_out_date": "2026-11-18",
+      "clock_out_time": "12:00:00",
+      "job_assignment": "Pharm Tech",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Wed",
+      "_eval_overnight": false
+    },
+    {
+      "employee_name": "Amara Okafor",
+      "clock_in_date": "2026-11-19",
+      "clock_in_time": "13:00:00",
+      "clock_out_date": "2026-11-19",
+      "clock_out_time": "21:00:00",
+      "job_assignment": "Cashier",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Thu",
+      "_eval_overnight": false
+    },
+    {
+      "employee_name": "Amara Okafor",
+      "clock_in_date": "2026-11-20",
+      "clock_in_time": "08:00:00",
+      "clock_out_date": "2026-11-20",
+      "clock_out_time": "12:00:00",
+      "job_assignment": "Cashier",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Fri",
+      "_eval_overnight": false
+    },
+    {
+      "employee_name": "Nadia Petrov",
+      "clock_in_date": "2026-11-16",
+      "clock_in_time": "10:00:00",
+      "clock_out_date": "2026-11-16",
+      "clock_out_time": "18:00:00",
+      "job_assignment": "Pharmacist",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Mon",
+      "_eval_overnight": false
+    },
+    {
+      "employee_name": "Nadia Petrov",
+      "clock_in_date": "2026-11-17",
+      "clock_in_time": "13:00:00",
+      "clock_out_date": "2026-11-17",
+      "clock_out_time": "21:00:00",
+      "job_assignment": "Pharmacist",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Tue",
+      "_eval_overnight": false
+    },
+    {
+      "employee_name": "Nadia Petrov",
+      "clock_in_date": "2026-11-19",
+      "clock_in_time": "10:00:00",
+      "clock_out_date": "2026-11-19",
+      "clock_out_time": "18:00:00",
+      "job_assignment": "Pharmacist",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Thu",
+      "_eval_overnight": false
+    },
+    {
+      "employee_name": "Nadia Petrov",
+      "clock_in_date": "2026-11-20",
+      "clock_in_time": "10:00:00",
+      "clock_out_date": "2026-11-20",
+      "clock_out_time": "18:00:00",
+      "job_assignment": "Pharm Tech",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Fri",
+      "_eval_overnight": false
+    },
+    {
+      "employee_name": "Olivia Fraser",
+      "clock_in_date": "2026-11-16",
+      "clock_in_time": "08:00:00",
+      "clock_out_date": "2026-11-16",
+      "clock_out_time": "16:00:00",
+      "job_assignment": "Cosmetics",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Mon",
+      "_eval_overnight": false
+    },
+    {
+      "employee_name": "Olivia Fraser",
+      "clock_in_date": "2026-11-17",
+      "clock_in_time": "08:00:00",
+      "clock_out_date": "2026-11-17",
+      "clock_out_time": "16:00:00",
+      "job_assignment": "Pharmacist",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Tue",
+      "_eval_overnight": false
+    },
+    {
+      "employee_name": "Olivia Fraser",
+      "clock_in_date": "2026-11-20",
+      "clock_in_time": "08:00:00",
+      "clock_out_date": "2026-11-20",
+      "clock_out_time": "16:00:00",
+      "job_assignment": "Cashier",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Fri",
+      "_eval_overnight": false
+    },
+    {
+      "employee_name": "Yuki Tanaka",
+      "clock_in_date": "2026-11-16",
+      "clock_in_time": "10:00:00",
+      "clock_out_date": "2026-11-16",
+      "clock_out_time": "18:00:00",
+      "job_assignment": "Pharm Tech",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Mon",
+      "_eval_overnight": false
+    },
+    {
+      "employee_name": "Yuki Tanaka",
+      "clock_in_date": "2026-11-18",
+      "clock_in_time": "10:00:00",
+      "clock_out_date": "2026-11-18",
+      "clock_out_time": "18:00:00",
+      "job_assignment": "Pharm Tech",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Wed",
+      "_eval_overnight": false
+    },
+    {
+      "employee_name": "Yuki Tanaka",
+      "clock_in_date": "2026-11-20",
+      "clock_in_time": "10:00:00",
+      "clock_out_date": "2026-11-20",
+      "clock_out_time": "18:00:00",
+      "job_assignment": "Pharm Tech",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Fri",
+      "_eval_overnight": false
+    }
+  ],
+  "vacation": [
+    {
+      "employee_name": "Arjun Singh",
+      "date": "2026-11-17",
+      "_eval_day_of_week": "Tue"
+    },
+    {
+      "employee_name": "Arjun Singh",
+      "date": "2026-11-18",
+      "_eval_day_of_week": "Wed"
+    },
+    {
+      "employee_name": "Arjun Singh",
+      "date": "2026-11-19",
+      "_eval_day_of_week": "Thu"
+    },
+    {
+      "employee_name": "Kofi Mensah",
+      "date": "2026-11-16",
+      "_eval_day_of_week": "Mon"
+    },
+    {
+      "employee_name": "Kofi Mensah",
+      "date": "2026-11-17",
+      "_eval_day_of_week": "Tue"
+    },
+    {
+      "employee_name": "Kofi Mensah",
+      "date": "2026-11-18",
+      "_eval_day_of_week": "Wed"
+    },
+    {
+      "employee_name": "Kofi Mensah",
+      "date": "2026-11-19",
+      "_eval_day_of_week": "Thu"
+    },
+    {
+      "employee_name": "Kofi Mensah",
+      "date": "2026-11-20",
+      "_eval_day_of_week": "Fri"
+    },
+    {
+      "employee_name": "Olivia Fraser",
+      "date": "2026-11-18",
+      "_eval_day_of_week": "Wed"
+    },
+    {
+      "employee_name": "Olivia Fraser",
+      "date": "2026-11-19",
+      "_eval_day_of_week": "Thu"
+    }
+  ],
+  "days_off": [
+    {
+      "employee_name": "Priya Patel",
+      "date": "2026-11-17",
+      "_eval_day_of_week": "Tue"
+    },
+    {
+      "employee_name": "Priya Patel",
+      "date": "2026-11-19",
+      "_eval_day_of_week": "Thu"
+    },
+    {
+      "employee_name": "Hannah Lee",
+      "date": "2026-11-20",
+      "_eval_day_of_week": "Fri"
+    },
+    {
+      "employee_name": "Ethan Roy",
+      "date": "2026-11-20",
+      "_eval_day_of_week": "Fri"
+    },
+    {
+      "employee_name": "Emily Wong",
+      "date": "2026-11-18",
+      "_eval_day_of_week": "Wed"
+    },
+    {
+      "employee_name": "Marcus Brown",
+      "date": "2026-11-17",
+      "_eval_day_of_week": "Tue"
+    },
+    {
+      "employee_name": "Marcus Brown",
+      "date": "2026-11-19",
+      "_eval_day_of_week": "Thu"
+    },
+    {
+      "employee_name": "Nadia Petrov",
+      "date": "2026-11-18",
+      "_eval_day_of_week": "Wed"
+    },
+    {
+      "employee_name": "Yuki Tanaka",
+      "date": "2026-11-17",
+      "_eval_day_of_week": "Tue"
+    },
+    {
+      "employee_name": "Yuki Tanaka",
+      "date": "2026-11-19",
+      "_eval_day_of_week": "Thu"
+    }
+  ],
+  "_note": "Fields prefixed _eval_ are evaluation helpers, not part of the Table 3 output schema. meal_times/break_times are [] because FR-11/FR-12 are MVP exclusions. Vacation and off days produce no shift records.",
+  "files": [
+    "S03_screenshot.png"
+  ]
+}

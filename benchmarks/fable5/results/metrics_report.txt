@@ -1,0 +1,49 @@
+
+scored 14 runs across 11 images (confidence threshold 0.8)
+
+FIELD EXTRACTION (per field)
+  field            precision   recall       F1  accuracy  FP rate  FN rate
+  employee_name       100.0%   100.0%   100.0%    100.0%     0.0%     0.0%
+  clock_in_date       100.0%   100.0%   100.0%    100.0%     0.0%     0.0%
+  clock_in_time       100.0%   100.0%   100.0%    100.0%     0.0%     0.0%
+  clock_out_date      100.0%   100.0%   100.0%    100.0%     0.0%     0.0%
+  clock_out_time      100.0%   100.0%   100.0%    100.0%     0.0%     0.0%
+  job_assignment      100.0%   100.0%   100.0%    100.0%     0.0%     0.0%
+  ALL FIELDS          100.0%   100.0%   100.0%    100.0%
+  reference: >=90% printed text, ~70% handwriting (Appendix A)
+
+SHIFTS
+  shift recall (found / in truth):        100.0%   (509/509)
+  shift precision (real / output):        100.0%   (0 extra shifts)
+  shifts with every field correct:        100.0%
+
+CONFIDENCE (FR-14)                     result   target
+  incorrect fields flagged (<0.8):       n/a    >=90%   (0 incorrect fields)
+  empty fields returned as null:          n/a    >=85%   (0 empty fields in truth)
+  hallucinated fields:                    0.0%   <=10%
+  correct fields wrongly flagged:         0.0%   (lower is better)
+
+INPUT / OUTPUT / RELIABILITY
+  marked readable (FR-2a):              100.0%
+  runs with valid JSON:                 100.0%   target 100%
+  crash/error rate:                       0.0%
+  repeat runs identical to run 1 (NFR-8): 100.0%   (9/9)
+
+PERFORMANCE (time by schedule size)
+    32 shifts:   44.2 s average over 3 run(s)
+    33 shifts:   47.1 s average over 3 run(s)
+    34 shifts:   57.4 s average over 2 run(s)
+    40 shifts:   63.2 s average over 3 run(s)
+    42 shifts:   66.6 s average over 3 run(s)
+
+warnings:
+  no results for S06_paper_handwritten_edits.jpg
+  no results for S07_handwritten_paper.jpg
+  no results for S08_whiteboard.jpg
+  no results for S09_whiteboard_hard.jpg
+  no results for S10_printed_page-1.png
+  no results for S10_printed_page-2.png
+
+saved: results/metrics_fields.csv, results/metrics_images.csv
+not covered here: structure recognition (Fable has no separate grid step),
+API acceptance, usability, security and maintainability reviews.

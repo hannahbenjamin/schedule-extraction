@@ -29,13 +29,7 @@ coverage/
 .ruff_cache/
 
 # generated benchmark artifacts
-benchmarks/**/*.json
-!data/*.json
-
-# local data
-data/*.png
-!data/test_small.png
-!data/S08_whiteboard.jpg
+benchmarks/**/*_fable.json
 
 # notebooks
 .ipynb_checkpoints/

@@ -1,0 +1,7 @@
+field,TP,FP,FN,TN,precision,recall,f1,accuracy,fp_rate,fn_rate
+employee_name,509,0,0,0,1.0,1.0,1.0,1.0,0.0,0.0
+clock_in_date,509,0,0,0,1.0,1.0,1.0,1.0,0.0,0.0
+clock_in_time,509,0,0,0,1.0,1.0,1.0,1.0,0.0,0.0
+clock_out_date,509,0,0,0,1.0,1.0,1.0,1.0,0.0,0.0
+clock_out_time,509,0,0,0,1.0,1.0,1.0,1.0,0.0,0.0
+job_assignment,509,0,0,0,1.0,1.0,1.0,1.0,0.0,0.0

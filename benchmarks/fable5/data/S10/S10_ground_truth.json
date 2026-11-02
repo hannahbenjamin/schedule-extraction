@@ -1,0 +1,639 @@
+{
+  "schedule_id": "S10",
+  "source_type": "printed_pdf (digital, multi-page)",
+  "difficulty": "medium",
+  "layout": "NOT a grid: one section per day listing Employee / Department / Shift; vacations in a separate table at the end",
+  "time_format": "compact 12h with en dash, e.g. '11p – 7a'",
+  "test_conditions": [
+    "day-major list layout (date comes from section heading)",
+    "multi-page PDF",
+    "vacation given as date ranges in separate table",
+    "multiple overnight shifts",
+    "employees absent from a day's list = off",
+    "rows sorted by start time, not by name"
+  ],
+  "week_start": "2026-10-26",
+  "dates_visible_on_schedule": true,
+  "employee_count": 12,
+  "shift_count": 44,
+  "shifts": [
+    {
+      "employee_name": "Hassan Yusuf",
+      "clock_in_date": "2026-10-26",
+      "clock_in_time": "12:00:00",
+      "clock_out_date": "2026-10-26",
+      "clock_out_time": "20:00:00",
+      "job_assignment": "Supervisor",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Mon",
+      "_eval_overnight": false
+    },
+    {
+      "employee_name": "Hassan Yusuf",
+      "clock_in_date": "2026-10-27",
+      "clock_in_time": "10:00:00",
+      "clock_out_date": "2026-10-27",
+      "clock_out_time": "18:00:00",
+      "job_assignment": "Supervisor",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Tue",
+      "_eval_overnight": false
+    },
+    {
+      "employee_name": "Hassan Yusuf",
+      "clock_in_date": "2026-10-29",
+      "clock_in_time": "10:00:00",
+      "clock_out_date": "2026-10-29",
+      "clock_out_time": "18:00:00",
+      "job_assignment": "Supervisor",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Thu",
+      "_eval_overnight": false
+    },
+    {
+      "employee_name": "Hassan Yusuf",
+      "clock_in_date": "2026-10-30",
+      "clock_in_time": "12:00:00",
+      "clock_out_date": "2026-10-30",
+      "clock_out_time": "20:00:00",
+      "job_assignment": "Supervisor",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Fri",
+      "_eval_overnight": false
+    },
+    {
+      "employee_name": "Arjun Singh",
+      "clock_in_date": "2026-10-26",
+      "clock_in_time": "06:00:00",
+      "clock_out_date": "2026-10-26",
+      "clock_out_time": "14:00:00",
+      "job_assignment": "Stock",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Mon",
+      "_eval_overnight": false
+    },
+    {
+      "employee_name": "Arjun Singh",
+      "clock_in_date": "2026-10-28",
+      "clock_in_time": "06:00:00",
+      "clock_out_date": "2026-10-28",
+      "clock_out_time": "14:00:00",
+      "job_assignment": "Cashier",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Wed",
+      "_eval_overnight": false
+    },
+    {
+      "employee_name": "Arjun Singh",
+      "clock_in_date": "2026-10-29",
+      "clock_in_time": "06:00:00",
+      "clock_out_date": "2026-10-29",
+      "clock_out_time": "14:00:00",
+      "job_assignment": "Stock",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Thu",
+      "_eval_overnight": false
+    },
+    {
+      "employee_name": "Yuki Tanaka",
+      "clock_in_date": "2026-10-26",
+      "clock_in_time": "12:00:00",
+      "clock_out_date": "2026-10-26",
+      "clock_out_time": "20:00:00",
+      "job_assignment": "Cashier",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Mon",
+      "_eval_overnight": false
+    },
+    {
+      "employee_name": "Yuki Tanaka",
+      "clock_in_date": "2026-10-27",
+      "clock_in_time": "14:00:00",
+      "clock_out_date": "2026-10-27",
+      "clock_out_time": "22:00:00",
+      "job_assignment": "Cashier",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Tue",
+      "_eval_overnight": false
+    },
+    {
+      "employee_name": "Yuki Tanaka",
+      "clock_in_date": "2026-10-28",
+      "clock_in_time": "14:00:00",
+      "clock_out_date": "2026-10-28",
+      "clock_out_time": "22:00:00",
+      "job_assignment": "Cashier",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Wed",
+      "_eval_overnight": false
+    },
+    {
+      "employee_name": "Yuki Tanaka",
+      "clock_in_date": "2026-10-29",
+      "clock_in_time": "12:00:00",
+      "clock_out_date": "2026-10-29",
+      "clock_out_time": "20:00:00",
+      "job_assignment": "Deli",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Thu",
+      "_eval_overnight": false
+    },
+    {
+      "employee_name": "Ethan Roy",
+      "clock_in_date": "2026-10-26",
+      "clock_in_time": "22:00:00",
+      "clock_out_date": "2026-10-27",
+      "clock_out_time": "06:00:00",
+      "job_assignment": "Customer Service",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Mon",
+      "_eval_overnight": true
+    },
+    {
+      "employee_name": "Ethan Roy",
+      "clock_in_date": "2026-10-27",
+      "clock_in_time": "23:00:00",
+      "clock_out_date": "2026-10-28",
+      "clock_out_time": "07:00:00",
+      "job_assignment": "Stock",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Tue",
+      "_eval_overnight": true
+    },
+    {
+      "employee_name": "Ethan Roy",
+      "clock_in_date": "2026-10-28",
+      "clock_in_time": "22:00:00",
+      "clock_out_date": "2026-10-29",
+      "clock_out_time": "06:00:00",
+      "job_assignment": "Produce",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Wed",
+      "_eval_overnight": true
+    },
+    {
+      "employee_name": "Ethan Roy",
+      "clock_in_date": "2026-10-29",
+      "clock_in_time": "23:00:00",
+      "clock_out_date": "2026-10-30",
+      "clock_out_time": "07:00:00",
+      "job_assignment": "Supervisor",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Thu",
+      "_eval_overnight": true
+    },
+    {
+      "employee_name": "Ethan Roy",
+      "clock_in_date": "2026-10-30",
+      "clock_in_time": "22:00:00",
+      "clock_out_date": "2026-10-31",
+      "clock_out_time": "06:00:00",
+      "job_assignment": "Cashier",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Fri",
+      "_eval_overnight": true
+    },
+    {
+      "employee_name": "Nadia Petrov",
+      "clock_in_date": "2026-10-26",
+      "clock_in_time": "06:00:00",
+      "clock_out_date": "2026-10-26",
+      "clock_out_time": "14:00:00",
+      "job_assignment": "Stock",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Mon",
+      "_eval_overnight": false
+    },
+    {
+      "employee_name": "Nadia Petrov",
+      "clock_in_date": "2026-10-27",
+      "clock_in_time": "12:00:00",
+      "clock_out_date": "2026-10-27",
+      "clock_out_time": "20:00:00",
+      "job_assignment": "Produce",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Tue",
+      "_eval_overnight": false
+    },
+    {
+      "employee_name": "Nadia Petrov",
+      "clock_in_date": "2026-10-28",
+      "clock_in_time": "12:00:00",
+      "clock_out_date": "2026-10-28",
+      "clock_out_time": "20:00:00",
+      "job_assignment": "Produce",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Wed",
+      "_eval_overnight": false
+    },
+    {
+      "employee_name": "Nadia Petrov",
+      "clock_in_date": "2026-10-30",
+      "clock_in_time": "06:00:00",
+      "clock_out_date": "2026-10-30",
+      "clock_out_time": "14:00:00",
+      "job_assignment": "Bakery",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Fri",
+      "_eval_overnight": false
+    },
+    {
+      "employee_name": "Tyler Wilson",
+      "clock_in_date": "2026-10-27",
+      "clock_in_time": "22:00:00",
+      "clock_out_date": "2026-10-28",
+      "clock_out_time": "06:00:00",
+      "job_assignment": "Cashier",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Tue",
+      "_eval_overnight": true
+    },
+    {
+      "employee_name": "Tyler Wilson",
+      "clock_in_date": "2026-10-28",
+      "clock_in_time": "22:00:00",
+      "clock_out_date": "2026-10-29",
+      "clock_out_time": "06:00:00",
+      "job_assignment": "Cashier",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Wed",
+      "_eval_overnight": true
+    },
+    {
+      "employee_name": "Tyler Wilson",
+      "clock_in_date": "2026-10-30",
+      "clock_in_time": "22:00:00",
+      "clock_out_date": "2026-10-31",
+      "clock_out_time": "06:00:00",
+      "job_assignment": "Deli",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Fri",
+      "_eval_overnight": true
+    },
+    {
+      "employee_name": "Rachel Green",
+      "clock_in_date": "2026-10-26",
+      "clock_in_time": "10:00:00",
+      "clock_out_date": "2026-10-26",
+      "clock_out_time": "18:00:00",
+      "job_assignment": "Customer Service",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Mon",
+      "_eval_overnight": false
+    },
+    {
+      "employee_name": "Rachel Green",
+      "clock_in_date": "2026-10-27",
+      "clock_in_time": "10:00:00",
+      "clock_out_date": "2026-10-27",
+      "clock_out_time": "18:00:00",
+      "job_assignment": "Customer Service",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Tue",
+      "_eval_overnight": false
+    },
+    {
+      "employee_name": "Rachel Green",
+      "clock_in_date": "2026-10-28",
+      "clock_in_time": "10:00:00",
+      "clock_out_date": "2026-10-28",
+      "clock_out_time": "18:00:00",
+      "job_assignment": "Customer Service",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Wed",
+      "_eval_overnight": false
+    },
+    {
+      "employee_name": "Rachel Green",
+      "clock_in_date": "2026-10-29",
+      "clock_in_time": "23:00:00",
+      "clock_out_date": "2026-10-30",
+      "clock_out_time": "07:00:00",
+      "job_assignment": "Customer Service",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Thu",
+      "_eval_overnight": true
+    },
+    {
+      "employee_name": "Rachel Green",
+      "clock_in_date": "2026-10-30",
+      "clock_in_time": "10:00:00",
+      "clock_out_date": "2026-10-30",
+      "clock_out_time": "18:00:00",
+      "job_assignment": "Produce",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Fri",
+      "_eval_overnight": false
+    },
+    {
+      "employee_name": "Amara Okafor",
+      "clock_in_date": "2026-10-26",
+      "clock_in_time": "06:00:00",
+      "clock_out_date": "2026-10-26",
+      "clock_out_time": "14:00:00",
+      "job_assignment": "Supervisor",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Mon",
+      "_eval_overnight": false
+    },
+    {
+      "employee_name": "Amara Okafor",
+      "clock_in_date": "2026-10-27",
+      "clock_in_time": "09:00:00",
+      "clock_out_date": "2026-10-27",
+      "clock_out_time": "17:00:00",
+      "job_assignment": "Supervisor",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Tue",
+      "_eval_overnight": false
+    },
+    {
+      "employee_name": "Amara Okafor",
+      "clock_in_date": "2026-10-28",
+      "clock_in_time": "06:00:00",
+      "clock_out_date": "2026-10-28",
+      "clock_out_time": "14:00:00",
+      "job_assignment": "Deli",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Wed",
+      "_eval_overnight": false
+    },
+    {
+      "employee_name": "Amara Okafor",
+      "clock_in_date": "2026-10-29",
+      "clock_in_time": "06:00:00",
+      "clock_out_date": "2026-10-29",
+      "clock_out_time": "14:00:00",
+      "job_assignment": "Supervisor",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Thu",
+      "_eval_overnight": false
+    },
+    {
+      "employee_name": "Amara Okafor",
+      "clock_in_date": "2026-10-30",
+      "clock_in_time": "09:00:00",
+      "clock_out_date": "2026-10-30",
+      "clock_out_time": "17:00:00",
+      "job_assignment": "Supervisor",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Fri",
+      "_eval_overnight": false
+    },
+    {
+      "employee_name": "Daniel Kim",
+      "clock_in_date": "2026-10-28",
+      "clock_in_time": "07:00:00",
+      "clock_out_date": "2026-10-28",
+      "clock_out_time": "15:00:00",
+      "job_assignment": "Deli",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Wed",
+      "_eval_overnight": false
+    },
+    {
+      "employee_name": "Daniel Kim",
+      "clock_in_date": "2026-10-29",
+      "clock_in_time": "14:00:00",
+      "clock_out_date": "2026-10-29",
+      "clock_out_time": "22:00:00",
+      "job_assignment": "Deli",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Thu",
+      "_eval_overnight": false
+    },
+    {
+      "employee_name": "Daniel Kim",
+      "clock_in_date": "2026-10-30",
+      "clock_in_time": "07:00:00",
+      "clock_out_date": "2026-10-30",
+      "clock_out_time": "15:00:00",
+      "job_assignment": "Cashier",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Fri",
+      "_eval_overnight": false
+    },
+    {
+      "employee_name": "Kofi Mensah",
+      "clock_in_date": "2026-10-26",
+      "clock_in_time": "14:00:00",
+      "clock_out_date": "2026-10-26",
+      "clock_out_time": "22:00:00",
+      "job_assignment": "Deli",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Mon",
+      "_eval_overnight": false
+    },
+    {
+      "employee_name": "Kofi Mensah",
+      "clock_in_date": "2026-10-27",
+      "clock_in_time": "07:00:00",
+      "clock_out_date": "2026-10-27",
+      "clock_out_time": "15:00:00",
+      "job_assignment": "Deli",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Tue",
+      "_eval_overnight": false
+    },
+    {
+      "employee_name": "Kofi Mensah",
+      "clock_in_date": "2026-10-30",
+      "clock_in_time": "07:00:00",
+      "clock_out_date": "2026-10-30",
+      "clock_out_time": "15:00:00",
+      "job_assignment": "Deli",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Fri",
+      "_eval_overnight": false
+    },
+    {
+      "employee_name": "Omar Haddad",
+      "clock_in_date": "2026-10-26",
+      "clock_in_time": "23:00:00",
+      "clock_out_date": "2026-10-27",
+      "clock_out_time": "07:00:00",
+      "job_assignment": "Deli",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Mon",
+      "_eval_overnight": true
+    },
+    {
+      "employee_name": "Omar Haddad",
+      "clock_in_date": "2026-10-27",
+      "clock_in_time": "12:00:00",
+      "clock_out_date": "2026-10-27",
+      "clock_out_time": "20:00:00",
+      "job_assignment": "Deli",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Tue",
+      "_eval_overnight": false
+    },
+    {
+      "employee_name": "Omar Haddad",
+      "clock_in_date": "2026-10-30",
+      "clock_in_time": "12:00:00",
+      "clock_out_date": "2026-10-30",
+      "clock_out_time": "20:00:00",
+      "job_assignment": "Deli",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Fri",
+      "_eval_overnight": false
+    },
+    {
+      "employee_name": "Noah Gagnon",
+      "clock_in_date": "2026-10-26",
+      "clock_in_time": "10:00:00",
+      "clock_out_date": "2026-10-26",
+      "clock_out_time": "18:00:00",
+      "job_assignment": "Stock",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Mon",
+      "_eval_overnight": false
+    },
+    {
+      "employee_name": "Noah Gagnon",
+      "clock_in_date": "2026-10-30",
+      "clock_in_time": "10:00:00",
+      "clock_out_date": "2026-10-30",
+      "clock_out_time": "18:00:00",
+      "job_assignment": "Stock",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Fri",
+      "_eval_overnight": false
+    }
+  ],
+  "vacation": [
+    {
+      "employee_name": "Kofi Mensah",
+      "date": "2026-10-28",
+      "_eval_day_of_week": "Wed"
+    },
+    {
+      "employee_name": "Kofi Mensah",
+      "date": "2026-10-29",
+      "_eval_day_of_week": "Thu"
+    },
+    {
+      "employee_name": "Omar Haddad",
+      "date": "2026-10-28",
+      "_eval_day_of_week": "Wed"
+    },
+    {
+      "employee_name": "Omar Haddad",
+      "date": "2026-10-29",
+      "_eval_day_of_week": "Thu"
+    },
+    {
+      "employee_name": "Noah Gagnon",
+      "date": "2026-10-27",
+      "_eval_day_of_week": "Tue"
+    },
+    {
+      "employee_name": "Noah Gagnon",
+      "date": "2026-10-28",
+      "_eval_day_of_week": "Wed"
+    },
+    {
+      "employee_name": "Noah Gagnon",
+      "date": "2026-10-29",
+      "_eval_day_of_week": "Thu"
+    }
+  ],
+  "days_off": [
+    {
+      "employee_name": "Hassan Yusuf",
+      "date": "2026-10-28",
+      "_eval_day_of_week": "Wed"
+    },
+    {
+      "employee_name": "Arjun Singh",
+      "date": "2026-10-27",
+      "_eval_day_of_week": "Tue"
+    },
+    {
+      "employee_name": "Arjun Singh",
+      "date": "2026-10-30",
+      "_eval_day_of_week": "Fri"
+    },
+    {
+      "employee_name": "Yuki Tanaka",
+      "date": "2026-10-30",
+      "_eval_day_of_week": "Fri"
+    },
+    {
+      "employee_name": "Nadia Petrov",
+      "date": "2026-10-29",
+      "_eval_day_of_week": "Thu"
+    },
+    {
+      "employee_name": "Tyler Wilson",
+      "date": "2026-10-26",
+      "_eval_day_of_week": "Mon"
+    },
+    {
+      "employee_name": "Tyler Wilson",
+      "date": "2026-10-29",
+      "_eval_day_of_week": "Thu"
+    },
+    {
+      "employee_name": "Daniel Kim",
+      "date": "2026-10-26",
+      "_eval_day_of_week": "Mon"
+    },
+    {
+      "employee_name": "Daniel Kim",
+      "date": "2026-10-27",
+      "_eval_day_of_week": "Tue"
+    }
+  ],
+  "_note": "Fields prefixed _eval_ are evaluation helpers, not part of the Table 3 output schema. meal_times/break_times are [] because FR-11/FR-12 are MVP exclusions. Vacation and off days produce no shift records.",
+  "files": [
+    "S10_printed.pdf",
+    "S10_printed_page-1.png",
+    "S10_printed_page-2.png"
+  ]
+}

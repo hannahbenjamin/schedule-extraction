@@ -1,0 +1,4 @@
+# benchmarks/fable5 - state-of-the-art benchmark only (not part of the POC)
+# install: pip install -r requirements.txt
+ 
+anthropic>=2.4,<3      # extract.py, run_benchmark.py, test_api.py

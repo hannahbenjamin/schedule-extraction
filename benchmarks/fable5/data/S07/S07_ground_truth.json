@@ -1,0 +1,412 @@
+{
+  "schedule_id": "S07",
+  "source_type": "handwritten paper (notebook, phone photo)",
+  "difficulty": "hard",
+  "layout": "hand-drawn grid; rows=employees, cols=days; job on line 1, time on line 2",
+  "time_format": "12h with NO am/pm, e.g. '10-4', '5-1', '9:30-3:30' — AM/PM must be inferred from restaurant context",
+  "test_conditions": [
+    "fully handwritten (FR-13)",
+    "ruled notebook lines + margin line + binder holes as distractors",
+    "wobbly hand-drawn grid",
+    "AM/PM inference (FR-15)",
+    "'5-1' = 17:00 to 01:00 next day (overnight inference)",
+    "header shows day numbers only (month from title)",
+    "'Vacation' and 'off' written out"
+  ],
+  "week_start": "2026-12-14",
+  "dates_visible_on_schedule": true,
+  "employee_count": 8,
+  "shift_count": 26,
+  "shifts": [
+    {
+      "employee_name": "Liam Tremblay",
+      "clock_in_date": "2026-12-18",
+      "clock_in_time": "16:00:00",
+      "clock_out_date": "2026-12-18",
+      "clock_out_time": "23:00:00",
+      "job_assignment": "Bartender",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Fri",
+      "_eval_overnight": false
+    },
+    {
+      "employee_name": "Hassan Yusuf",
+      "clock_in_date": "2026-12-14",
+      "clock_in_time": "16:00:00",
+      "clock_out_date": "2026-12-14",
+      "clock_out_time": "23:00:00",
+      "job_assignment": "Prep Cook",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Mon",
+      "_eval_overnight": false
+    },
+    {
+      "employee_name": "Hassan Yusuf",
+      "clock_in_date": "2026-12-15",
+      "clock_in_time": "16:00:00",
+      "clock_out_date": "2026-12-15",
+      "clock_out_time": "23:00:00",
+      "job_assignment": "Prep Cook",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Tue",
+      "_eval_overnight": false
+    },
+    {
+      "employee_name": "Hassan Yusuf",
+      "clock_in_date": "2026-12-16",
+      "clock_in_time": "16:00:00",
+      "clock_out_date": "2026-12-16",
+      "clock_out_time": "23:00:00",
+      "job_assignment": "Prep Cook",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Wed",
+      "_eval_overnight": false
+    },
+    {
+      "employee_name": "Hassan Yusuf",
+      "clock_in_date": "2026-12-17",
+      "clock_in_time": "17:00:00",
+      "clock_out_date": "2026-12-18",
+      "clock_out_time": "01:00:00",
+      "job_assignment": "Prep Cook",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Thu",
+      "_eval_overnight": true
+    },
+    {
+      "employee_name": "Hassan Yusuf",
+      "clock_in_date": "2026-12-18",
+      "clock_in_time": "16:00:00",
+      "clock_out_date": "2026-12-18",
+      "clock_out_time": "23:00:00",
+      "job_assignment": "Prep Cook",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Fri",
+      "_eval_overnight": false
+    },
+    {
+      "employee_name": "Owen MacDonald",
+      "clock_in_date": "2026-12-14",
+      "clock_in_time": "17:00:00",
+      "clock_out_date": "2026-12-15",
+      "clock_out_time": "01:00:00",
+      "job_assignment": "Server",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Mon",
+      "_eval_overnight": true
+    },
+    {
+      "employee_name": "Owen MacDonald",
+      "clock_in_date": "2026-12-16",
+      "clock_in_time": "15:00:00",
+      "clock_out_date": "2026-12-16",
+      "clock_out_time": "22:00:00",
+      "job_assignment": "Server",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Wed",
+      "_eval_overnight": false
+    },
+    {
+      "employee_name": "Owen MacDonald",
+      "clock_in_date": "2026-12-17",
+      "clock_in_time": "15:00:00",
+      "clock_out_date": "2026-12-17",
+      "clock_out_time": "22:00:00",
+      "job_assignment": "Server",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Thu",
+      "_eval_overnight": false
+    },
+    {
+      "employee_name": "Sara Lindqvist",
+      "clock_in_date": "2026-12-14",
+      "clock_in_time": "17:00:00",
+      "clock_out_date": "2026-12-15",
+      "clock_out_time": "01:00:00",
+      "job_assignment": "Bartender",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Mon",
+      "_eval_overnight": true
+    },
+    {
+      "employee_name": "Sara Lindqvist",
+      "clock_in_date": "2026-12-16",
+      "clock_in_time": "16:00:00",
+      "clock_out_date": "2026-12-16",
+      "clock_out_time": "23:00:00",
+      "job_assignment": "Bartender",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Wed",
+      "_eval_overnight": false
+    },
+    {
+      "employee_name": "Sara Lindqvist",
+      "clock_in_date": "2026-12-17",
+      "clock_in_time": "16:00:00",
+      "clock_out_date": "2026-12-17",
+      "clock_out_time": "23:00:00",
+      "job_assignment": "Bartender",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Thu",
+      "_eval_overnight": false
+    },
+    {
+      "employee_name": "Sara Lindqvist",
+      "clock_in_date": "2026-12-18",
+      "clock_in_time": "16:00:00",
+      "clock_out_date": "2026-12-18",
+      "clock_out_time": "23:00:00",
+      "job_assignment": "Bartender",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Fri",
+      "_eval_overnight": false
+    },
+    {
+      "employee_name": "Yuki Tanaka",
+      "clock_in_date": "2026-12-17",
+      "clock_in_time": "15:00:00",
+      "clock_out_date": "2026-12-17",
+      "clock_out_time": "22:00:00",
+      "job_assignment": "Bartender",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Thu",
+      "_eval_overnight": false
+    },
+    {
+      "employee_name": "Yuki Tanaka",
+      "clock_in_date": "2026-12-18",
+      "clock_in_time": "17:00:00",
+      "clock_out_date": "2026-12-19",
+      "clock_out_time": "01:00:00",
+      "job_assignment": "Bartender",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Fri",
+      "_eval_overnight": true
+    },
+    {
+      "employee_name": "Ali Rahman",
+      "clock_in_date": "2026-12-14",
+      "clock_in_time": "16:00:00",
+      "clock_out_date": "2026-12-14",
+      "clock_out_time": "23:00:00",
+      "job_assignment": "Prep Cook",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Mon",
+      "_eval_overnight": false
+    },
+    {
+      "employee_name": "Ali Rahman",
+      "clock_in_date": "2026-12-15",
+      "clock_in_time": "10:00:00",
+      "clock_out_date": "2026-12-15",
+      "clock_out_time": "16:00:00",
+      "job_assignment": "Prep Cook",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Tue",
+      "_eval_overnight": false
+    },
+    {
+      "employee_name": "Ali Rahman",
+      "clock_in_date": "2026-12-16",
+      "clock_in_time": "16:00:00",
+      "clock_out_date": "2026-12-16",
+      "clock_out_time": "23:00:00",
+      "job_assignment": "Prep Cook",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Wed",
+      "_eval_overnight": false
+    },
+    {
+      "employee_name": "Ali Rahman",
+      "clock_in_date": "2026-12-17",
+      "clock_in_time": "16:00:00",
+      "clock_out_date": "2026-12-17",
+      "clock_out_time": "23:00:00",
+      "job_assignment": "Prep Cook",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Thu",
+      "_eval_overnight": false
+    },
+    {
+      "employee_name": "Aisha Khan",
+      "clock_in_date": "2026-12-14",
+      "clock_in_time": "15:00:00",
+      "clock_out_date": "2026-12-14",
+      "clock_out_time": "22:00:00",
+      "job_assignment": "Server",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Mon",
+      "_eval_overnight": false
+    },
+    {
+      "employee_name": "Aisha Khan",
+      "clock_in_date": "2026-12-15",
+      "clock_in_time": "15:00:00",
+      "clock_out_date": "2026-12-15",
+      "clock_out_time": "22:00:00",
+      "job_assignment": "Server",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Tue",
+      "_eval_overnight": false
+    },
+    {
+      "employee_name": "Aisha Khan",
+      "clock_in_date": "2026-12-17",
+      "clock_in_time": "16:00:00",
+      "clock_out_date": "2026-12-17",
+      "clock_out_time": "23:00:00",
+      "job_assignment": "Server",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Thu",
+      "_eval_overnight": false
+    },
+    {
+      "employee_name": "Aisha Khan",
+      "clock_in_date": "2026-12-18",
+      "clock_in_time": "16:00:00",
+      "clock_out_date": "2026-12-18",
+      "clock_out_time": "23:00:00",
+      "job_assignment": "Server",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Fri",
+      "_eval_overnight": false
+    },
+    {
+      "employee_name": "Jordan Taylor",
+      "clock_in_date": "2026-12-15",
+      "clock_in_time": "17:00:00",
+      "clock_out_date": "2026-12-16",
+      "clock_out_time": "01:00:00",
+      "job_assignment": "Server",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Tue",
+      "_eval_overnight": true
+    },
+    {
+      "employee_name": "Jordan Taylor",
+      "clock_in_date": "2026-12-16",
+      "clock_in_time": "10:00:00",
+      "clock_out_date": "2026-12-16",
+      "clock_out_time": "16:00:00",
+      "job_assignment": "Server",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Wed",
+      "_eval_overnight": false
+    },
+    {
+      "employee_name": "Jordan Taylor",
+      "clock_in_date": "2026-12-17",
+      "clock_in_time": "10:00:00",
+      "clock_out_date": "2026-12-17",
+      "clock_out_time": "16:00:00",
+      "job_assignment": "Server",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Thu",
+      "_eval_overnight": false
+    }
+  ],
+  "vacation": [
+    {
+      "employee_name": "Liam Tremblay",
+      "date": "2026-12-15",
+      "_eval_day_of_week": "Tue"
+    },
+    {
+      "employee_name": "Liam Tremblay",
+      "date": "2026-12-16",
+      "_eval_day_of_week": "Wed"
+    },
+    {
+      "employee_name": "Liam Tremblay",
+      "date": "2026-12-17",
+      "_eval_day_of_week": "Thu"
+    },
+    {
+      "employee_name": "Yuki Tanaka",
+      "date": "2026-12-14",
+      "_eval_day_of_week": "Mon"
+    },
+    {
+      "employee_name": "Yuki Tanaka",
+      "date": "2026-12-15",
+      "_eval_day_of_week": "Tue"
+    }
+  ],
+  "days_off": [
+    {
+      "employee_name": "Liam Tremblay",
+      "date": "2026-12-14",
+      "_eval_day_of_week": "Mon"
+    },
+    {
+      "employee_name": "Owen MacDonald",
+      "date": "2026-12-15",
+      "_eval_day_of_week": "Tue"
+    },
+    {
+      "employee_name": "Owen MacDonald",
+      "date": "2026-12-18",
+      "_eval_day_of_week": "Fri"
+    },
+    {
+      "employee_name": "Sara Lindqvist",
+      "date": "2026-12-15",
+      "_eval_day_of_week": "Tue"
+    },
+    {
+      "employee_name": "Yuki Tanaka",
+      "date": "2026-12-16",
+      "_eval_day_of_week": "Wed"
+    },
+    {
+      "employee_name": "Ali Rahman",
+      "date": "2026-12-18",
+      "_eval_day_of_week": "Fri"
+    },
+    {
+      "employee_name": "Aisha Khan",
+      "date": "2026-12-16",
+      "_eval_day_of_week": "Wed"
+    },
+    {
+      "employee_name": "Jordan Taylor",
+      "date": "2026-12-14",
+      "_eval_day_of_week": "Mon"
+    },
+    {
+      "employee_name": "Jordan Taylor",
+      "date": "2026-12-18",
+      "_eval_day_of_week": "Fri"
+    }
+  ],
+  "_note": "Fields prefixed _eval_ are evaluation helpers, not part of the Table 3 output schema. meal_times/break_times are [] because FR-11/FR-12 are MVP exclusions. Vacation and off days produce no shift records.",
+  "files": [
+    "S07_handwritten_paper.jpg"
+  ]
+}

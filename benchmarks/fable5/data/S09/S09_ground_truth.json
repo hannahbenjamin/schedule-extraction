@@ -1,0 +1,519 @@
+{
+  "schedule_id": "S09",
+  "source_type": "whiteboard (phone photo, degraded)",
+  "difficulty": "very hard",
+  "layout": "marker-drawn grid; rows=employees (first name + last initial), cols=weekday names only",
+  "time_format": "12h with NO am/pm, job abbreviation + time on one line, e.g. 'Sales 10-6'",
+  "job_abbreviations": {
+    "Sales": "Sales Associate",
+    "Cash": "Cashier",
+    "FR": "Fitting Room",
+    "Stk": "Stock",
+    "KH": "Key Holder"
+  },
+  "test_conditions": [
+    "NO dates on board -> all dates null (FR-5/FR-15)",
+    "ghosting from erased old writing",
+    "strong perspective tilt",
+    "large glare hotspot",
+    "faded/dry markers, low contrast",
+    "low resolution + heavy JPEG",
+    "legend: V = vacation, X = off",
+    "stray note to ignore",
+    "names abbreviated (First L.)"
+  ],
+  "week_start": null,
+  "dates_visible_on_schedule": false,
+  "employee_count": 9,
+  "shift_count": 30,
+  "shifts": [
+    {
+      "employee_name": "Omar H.",
+      "clock_in_date": null,
+      "clock_in_time": "10:00:00",
+      "clock_out_date": null,
+      "clock_out_time": "18:00:00",
+      "job_assignment": "Stock",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Mon",
+      "_eval_overnight": false,
+      "_eval_full_name": "Omar Haddad"
+    },
+    {
+      "employee_name": "Omar H.",
+      "clock_in_date": null,
+      "clock_in_time": "10:00:00",
+      "clock_out_date": null,
+      "clock_out_time": "18:00:00",
+      "job_assignment": "Cashier",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Tue",
+      "_eval_overnight": false,
+      "_eval_full_name": "Omar Haddad"
+    },
+    {
+      "employee_name": "Omar H.",
+      "clock_in_date": null,
+      "clock_in_time": "10:00:00",
+      "clock_out_date": null,
+      "clock_out_time": "18:00:00",
+      "job_assignment": "Sales Associate",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Wed",
+      "_eval_overnight": false,
+      "_eval_full_name": "Omar Haddad"
+    },
+    {
+      "employee_name": "Omar H.",
+      "clock_in_date": null,
+      "clock_in_time": "13:00:00",
+      "clock_out_date": null,
+      "clock_out_time": "21:00:00",
+      "job_assignment": "Stock",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Thu",
+      "_eval_overnight": false,
+      "_eval_full_name": "Omar Haddad"
+    },
+    {
+      "employee_name": "Marcus B.",
+      "clock_in_date": null,
+      "clock_in_time": "17:00:00",
+      "clock_out_date": null,
+      "clock_out_time": "21:00:00",
+      "job_assignment": "Fitting Room",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Tue",
+      "_eval_overnight": false,
+      "_eval_full_name": "Marcus Brown"
+    },
+    {
+      "employee_name": "Marcus B.",
+      "clock_in_date": null,
+      "clock_in_time": "10:00:00",
+      "clock_out_date": null,
+      "clock_out_time": "18:00:00",
+      "job_assignment": "Fitting Room",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Wed",
+      "_eval_overnight": false,
+      "_eval_full_name": "Marcus Brown"
+    },
+    {
+      "employee_name": "Marcus B.",
+      "clock_in_date": null,
+      "clock_in_time": "17:00:00",
+      "clock_out_date": null,
+      "clock_out_time": "21:00:00",
+      "job_assignment": "Cashier",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Thu",
+      "_eval_overnight": false,
+      "_eval_full_name": "Marcus Brown"
+    },
+    {
+      "employee_name": "Anika S.",
+      "clock_in_date": null,
+      "clock_in_time": "10:00:00",
+      "clock_out_date": null,
+      "clock_out_time": "18:00:00",
+      "job_assignment": "Sales Associate",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Mon",
+      "_eval_overnight": false,
+      "_eval_full_name": "Anika Sharma"
+    },
+    {
+      "employee_name": "Anika S.",
+      "clock_in_date": null,
+      "clock_in_time": "10:00:00",
+      "clock_out_date": null,
+      "clock_out_time": "18:00:00",
+      "job_assignment": "Stock",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Wed",
+      "_eval_overnight": false,
+      "_eval_full_name": "Anika Sharma"
+    },
+    {
+      "employee_name": "Anika S.",
+      "clock_in_date": null,
+      "clock_in_time": "10:00:00",
+      "clock_out_date": null,
+      "clock_out_time": "18:00:00",
+      "job_assignment": "Sales Associate",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Thu",
+      "_eval_overnight": false,
+      "_eval_full_name": "Anika Sharma"
+    },
+    {
+      "employee_name": "Arjun S.",
+      "clock_in_date": null,
+      "clock_in_time": "10:00:00",
+      "clock_out_date": null,
+      "clock_out_time": "14:00:00",
+      "job_assignment": "Stock",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Mon",
+      "_eval_overnight": false,
+      "_eval_full_name": "Arjun Singh"
+    },
+    {
+      "employee_name": "Arjun S.",
+      "clock_in_date": null,
+      "clock_in_time": "10:00:00",
+      "clock_out_date": null,
+      "clock_out_time": "14:00:00",
+      "job_assignment": "Stock",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Tue",
+      "_eval_overnight": false,
+      "_eval_full_name": "Arjun Singh"
+    },
+    {
+      "employee_name": "Arjun S.",
+      "clock_in_date": null,
+      "clock_in_time": "13:00:00",
+      "clock_out_date": null,
+      "clock_out_time": "21:00:00",
+      "job_assignment": "Stock",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Thu",
+      "_eval_overnight": false,
+      "_eval_full_name": "Arjun Singh"
+    },
+    {
+      "employee_name": "Arjun S.",
+      "clock_in_date": null,
+      "clock_in_time": "13:00:00",
+      "clock_out_date": null,
+      "clock_out_time": "21:00:00",
+      "job_assignment": "Stock",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Fri",
+      "_eval_overnight": false,
+      "_eval_full_name": "Arjun Singh"
+    },
+    {
+      "employee_name": "Aisha K.",
+      "clock_in_date": null,
+      "clock_in_time": "12:00:00",
+      "clock_out_date": null,
+      "clock_out_time": "21:00:00",
+      "job_assignment": "Stock",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Wed",
+      "_eval_overnight": false,
+      "_eval_full_name": "Aisha Khan"
+    },
+    {
+      "employee_name": "Aisha K.",
+      "clock_in_date": null,
+      "clock_in_time": "10:00:00",
+      "clock_out_date": null,
+      "clock_out_time": "18:00:00",
+      "job_assignment": "Stock",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Thu",
+      "_eval_overnight": false,
+      "_eval_full_name": "Aisha Khan"
+    },
+    {
+      "employee_name": "Aisha K.",
+      "clock_in_date": null,
+      "clock_in_time": "10:00:00",
+      "clock_out_date": null,
+      "clock_out_time": "18:00:00",
+      "job_assignment": "Stock",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Fri",
+      "_eval_overnight": false,
+      "_eval_full_name": "Aisha Khan"
+    },
+    {
+      "employee_name": "Grace N.",
+      "clock_in_date": null,
+      "clock_in_time": "17:00:00",
+      "clock_out_date": null,
+      "clock_out_time": "21:00:00",
+      "job_assignment": "Stock",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Tue",
+      "_eval_overnight": false,
+      "_eval_full_name": "Grace Nguyen"
+    },
+    {
+      "employee_name": "Grace N.",
+      "clock_in_date": null,
+      "clock_in_time": "10:00:00",
+      "clock_out_date": null,
+      "clock_out_time": "18:00:00",
+      "job_assignment": "Stock",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Wed",
+      "_eval_overnight": false,
+      "_eval_full_name": "Grace Nguyen"
+    },
+    {
+      "employee_name": "Grace N.",
+      "clock_in_date": null,
+      "clock_in_time": "17:00:00",
+      "clock_out_date": null,
+      "clock_out_time": "21:00:00",
+      "job_assignment": "Stock",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Thu",
+      "_eval_overnight": false,
+      "_eval_full_name": "Grace Nguyen"
+    },
+    {
+      "employee_name": "Grace N.",
+      "clock_in_date": null,
+      "clock_in_time": "10:00:00",
+      "clock_out_date": null,
+      "clock_out_time": "18:00:00",
+      "job_assignment": "Stock",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Fri",
+      "_eval_overnight": false,
+      "_eval_full_name": "Grace Nguyen"
+    },
+    {
+      "employee_name": "Leah C.",
+      "clock_in_date": null,
+      "clock_in_time": "17:00:00",
+      "clock_out_date": null,
+      "clock_out_time": "21:00:00",
+      "job_assignment": "Sales Associate",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Mon",
+      "_eval_overnight": false,
+      "_eval_full_name": "Leah Cohen"
+    },
+    {
+      "employee_name": "Leah C.",
+      "clock_in_date": null,
+      "clock_in_time": "13:00:00",
+      "clock_out_date": null,
+      "clock_out_time": "21:00:00",
+      "job_assignment": "Sales Associate",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Tue",
+      "_eval_overnight": false,
+      "_eval_full_name": "Leah Cohen"
+    },
+    {
+      "employee_name": "Leah C.",
+      "clock_in_date": null,
+      "clock_in_time": "17:00:00",
+      "clock_out_date": null,
+      "clock_out_time": "21:00:00",
+      "job_assignment": "Sales Associate",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Wed",
+      "_eval_overnight": false,
+      "_eval_full_name": "Leah Cohen"
+    },
+    {
+      "employee_name": "Leah C.",
+      "clock_in_date": null,
+      "clock_in_time": "17:00:00",
+      "clock_out_date": null,
+      "clock_out_time": "21:00:00",
+      "job_assignment": "Sales Associate",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Thu",
+      "_eval_overnight": false,
+      "_eval_full_name": "Leah Cohen"
+    },
+    {
+      "employee_name": "Nadia P.",
+      "clock_in_date": null,
+      "clock_in_time": "10:00:00",
+      "clock_out_date": null,
+      "clock_out_time": "14:00:00",
+      "job_assignment": "Fitting Room",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Fri",
+      "_eval_overnight": false,
+      "_eval_full_name": "Nadia Petrov"
+    },
+    {
+      "employee_name": "Sara L.",
+      "clock_in_date": null,
+      "clock_in_time": "10:00:00",
+      "clock_out_date": null,
+      "clock_out_time": "18:00:00",
+      "job_assignment": "Sales Associate",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Mon",
+      "_eval_overnight": false,
+      "_eval_full_name": "Sara Lindqvist"
+    },
+    {
+      "employee_name": "Sara L.",
+      "clock_in_date": null,
+      "clock_in_time": "10:00:00",
+      "clock_out_date": null,
+      "clock_out_time": "18:00:00",
+      "job_assignment": "Key Holder",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Wed",
+      "_eval_overnight": false,
+      "_eval_full_name": "Sara Lindqvist"
+    },
+    {
+      "employee_name": "Sara L.",
+      "clock_in_date": null,
+      "clock_in_time": "10:00:00",
+      "clock_out_date": null,
+      "clock_out_time": "18:00:00",
+      "job_assignment": "Sales Associate",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Thu",
+      "_eval_overnight": false,
+      "_eval_full_name": "Sara Lindqvist"
+    },
+    {
+      "employee_name": "Sara L.",
+      "clock_in_date": null,
+      "clock_in_time": "10:00:00",
+      "clock_out_date": null,
+      "clock_out_time": "14:00:00",
+      "job_assignment": "Sales Associate",
+      "meal_times": [],
+      "break_times": [],
+      "_eval_day_of_week": "Fri",
+      "_eval_overnight": false,
+      "_eval_full_name": "Sara Lindqvist"
+    }
+  ],
+  "vacation": [
+    {
+      "employee_name": "Aisha K.",
+      "date": null,
+      "_eval_day_of_week": "Mon",
+      "_eval_full_name": "Aisha Khan"
+    },
+    {
+      "employee_name": "Nadia P.",
+      "date": null,
+      "_eval_day_of_week": "Tue",
+      "_eval_full_name": "Nadia Petrov"
+    },
+    {
+      "employee_name": "Nadia P.",
+      "date": null,
+      "_eval_day_of_week": "Wed",
+      "_eval_full_name": "Nadia Petrov"
+    },
+    {
+      "employee_name": "Nadia P.",
+      "date": null,
+      "_eval_day_of_week": "Thu",
+      "_eval_full_name": "Nadia Petrov"
+    }
+  ],
+  "days_off": [
+    {
+      "employee_name": "Omar H.",
+      "date": null,
+      "_eval_day_of_week": "Fri",
+      "_eval_full_name": "Omar Haddad"
+    },
+    {
+      "employee_name": "Marcus B.",
+      "date": null,
+      "_eval_day_of_week": "Mon",
+      "_eval_full_name": "Marcus Brown"
+    },
+    {
+      "employee_name": "Marcus B.",
+      "date": null,
+      "_eval_day_of_week": "Fri",
+      "_eval_full_name": "Marcus Brown"
+    },
+    {
+      "employee_name": "Anika S.",
+      "date": null,
+      "_eval_day_of_week": "Tue",
+      "_eval_full_name": "Anika Sharma"
+    },
+    {
+      "employee_name": "Anika S.",
+      "date": null,
+      "_eval_day_of_week": "Fri",
+      "_eval_full_name": "Anika Sharma"
+    },
+    {
+      "employee_name": "Arjun S.",
+      "date": null,
+      "_eval_day_of_week": "Wed",
+      "_eval_full_name": "Arjun Singh"
+    },
+    {
+      "employee_name": "Aisha K.",
+      "date": null,
+      "_eval_day_of_week": "Tue",
+      "_eval_full_name": "Aisha Khan"
+    },
+    {
+      "employee_name": "Grace N.",
+      "date": null,
+      "_eval_day_of_week": "Mon",
+      "_eval_full_name": "Grace Nguyen"
+    },
+    {
+      "employee_name": "Leah C.",
+      "date": null,
+      "_eval_day_of_week": "Fri",
+      "_eval_full_name": "Leah Cohen"
+    },
+    {
+      "employee_name": "Nadia P.",
+      "date": null,
+      "_eval_day_of_week": "Mon",
+      "_eval_full_name": "Nadia Petrov"
+    },
+    {
+      "employee_name": "Sara L.",
+      "date": null,
+      "_eval_day_of_week": "Tue",
+      "_eval_full_name": "Sara Lindqvist"
+    }
+  ],
+  "_note": "Fields prefixed _eval_ are evaluation helpers, not part of the Table 3 output schema. meal_times/break_times are [] because FR-11/FR-12 are MVP exclusions. Vacation and off days produce no shift records.",
+  "files": [
+    "S09_whiteboard_hard.jpg"
+  ]
+}
