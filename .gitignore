@@ -1,0 +1,46 @@
+# python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+ENV/
+.env
+.env.*
+
+# editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# os
+.DS_Store
+Thumbs.db
+
+# project outputs
+*.log
+*.tmp
+coverage/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# generated benchmark artifacts
+benchmarks/**/*.json
+!data/*.json
+
+# local data
+data/*.png
+!data/test_small.png
+!data/S08_whiteboard.jpg
+
+# notebooks
+.ipynb_checkpoints/
+
+# build / packaging
+build/
+dist/
+*.egg-info/
