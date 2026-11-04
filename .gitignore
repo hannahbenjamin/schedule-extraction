@@ -29,7 +29,7 @@ coverage/
 .ruff_cache/
 
 # generated benchmark artifacts
-benchmarks/**/*_fable.json
+# benchmarks/**/*_fable.json
 
 # notebooks
 .ipynb_checkpoints/

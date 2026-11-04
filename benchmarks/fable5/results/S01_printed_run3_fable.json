@@ -1,0 +1,645 @@
+{
+  "image_readable": true,
+  "shifts": [
+    {
+      "employee_name": "Rachel Green",
+      "clock_in_date": "2026-11-02",
+      "clock_in_time": "14:00:00",
+      "clock_out_date": "2026-11-02",
+      "clock_out_time": "22:00:00",
+      "job_assignment": "Deli",
+      "day_of_week": "Monday",
+      "confidence": {
+        "employee_name": 1,
+        "clock_in_date": 1,
+        "clock_in_time": 1,
+        "clock_out_date": 1,
+        "clock_out_time": 1,
+        "job_assignment": 1
+      },
+      "dates_filled_by_code": false,
+      "meal_times": [],
+      "break_times": []
+    },
+    {
+      "employee_name": "Rachel Green",
+      "clock_in_date": "2026-11-03",
+      "clock_in_time": "08:30:00",
+      "clock_out_date": "2026-11-03",
+      "clock_out_time": "13:00:00",
+      "job_assignment": "Deli",
+      "day_of_week": "Tuesday",
+      "confidence": {
+        "employee_name": 1,
+        "clock_in_date": 1,
+        "clock_in_time": 1,
+        "clock_out_date": 1,
+        "clock_out_time": 1,
+        "job_assignment": 1
+      },
+      "dates_filled_by_code": false,
+      "meal_times": [],
+      "break_times": []
+    },
+    {
+      "employee_name": "Rachel Green",
+      "clock_in_date": "2026-11-04",
+      "clock_in_time": "08:30:00",
+      "clock_out_date": "2026-11-04",
+      "clock_out_time": "13:00:00",
+      "job_assignment": "Deli",
+      "day_of_week": "Wednesday",
+      "confidence": {
+        "employee_name": 1,
+        "clock_in_date": 1,
+        "clock_in_time": 1,
+        "clock_out_date": 1,
+        "clock_out_time": 1,
+        "job_assignment": 1
+      },
+      "dates_filled_by_code": false,
+      "meal_times": [],
+      "break_times": []
+    },
+    {
+      "employee_name": "Rachel Green",
+      "clock_in_date": "2026-11-06",
+      "clock_in_time": "14:00:00",
+      "clock_out_date": "2026-11-06",
+      "clock_out_time": "22:00:00",
+      "job_assignment": "Deli",
+      "day_of_week": "Friday",
+      "confidence": {
+        "employee_name": 1,
+        "clock_in_date": 1,
+        "clock_in_time": 1,
+        "clock_out_date": 1,
+        "clock_out_time": 1,
+        "job_assignment": 1
+      },
+      "dates_filled_by_code": false,
+      "meal_times": [],
+      "break_times": []
+    },
+    {
+      "employee_name": "Hannah Lee",
+      "clock_in_date": "2026-11-02",
+      "clock_in_time": "16:00:00",
+      "clock_out_date": "2026-11-02",
+      "clock_out_time": "22:00:00",
+      "job_assignment": "Stock",
+      "day_of_week": "Monday",
+      "confidence": {
+        "employee_name": 1,
+        "clock_in_date": 1,
+        "clock_in_time": 1,
+        "clock_out_date": 1,
+        "clock_out_time": 1,
+        "job_assignment": 1
+      },
+      "dates_filled_by_code": false,
+      "meal_times": [],
+      "break_times": []
+    },
+    {
+      "employee_name": "Hannah Lee",
+      "clock_in_date": "2026-11-03",
+      "clock_in_time": "08:30:00",
+      "clock_out_date": "2026-11-03",
+      "clock_out_time": "13:00:00",
+      "job_assignment": "Stock",
+      "day_of_week": "Tuesday",
+      "confidence": {
+        "employee_name": 1,
+        "clock_in_date": 1,
+        "clock_in_time": 1,
+        "clock_out_date": 1,
+        "clock_out_time": 1,
+        "job_assignment": 1
+      },
+      "dates_filled_by_code": false,
+      "meal_times": [],
+      "break_times": []
+    },
+    {
+      "employee_name": "Hannah Lee",
+      "clock_in_date": "2026-11-04",
+      "clock_in_time": "16:00:00",
+      "clock_out_date": "2026-11-04",
+      "clock_out_time": "22:00:00",
+      "job_assignment": "Stock",
+      "day_of_week": "Wednesday",
+      "confidence": {
+        "employee_name": 1,
+        "clock_in_date": 1,
+        "clock_in_time": 1,
+        "clock_out_date": 1,
+        "clock_out_time": 1,
+        "job_assignment": 1
+      },
+      "dates_filled_by_code": false,
+      "meal_times": [],
+      "break_times": []
+    },
+    {
+      "employee_name": "Hannah Lee",
+      "clock_in_date": "2026-11-05",
+      "clock_in_time": "16:00:00",
+      "clock_out_date": "2026-11-05",
+      "clock_out_time": "22:00:00",
+      "job_assignment": "Stock",
+      "day_of_week": "Thursday",
+      "confidence": {
+        "employee_name": 1,
+        "clock_in_date": 1,
+        "clock_in_time": 1,
+        "clock_out_date": 1,
+        "clock_out_time": 1,
+        "job_assignment": 1
+      },
+      "dates_filled_by_code": false,
+      "meal_times": [],
+      "break_times": []
+    },
+    {
+      "employee_name": "Hannah Lee",
+      "clock_in_date": "2026-11-06",
+      "clock_in_time": "16:00:00",
+      "clock_out_date": "2026-11-06",
+      "clock_out_time": "22:00:00",
+      "job_assignment": "Stock",
+      "day_of_week": "Friday",
+      "confidence": {
+        "employee_name": 1,
+        "clock_in_date": 1,
+        "clock_in_time": 1,
+        "clock_out_date": 1,
+        "clock_out_time": 1,
+        "job_assignment": 1
+      },
+      "dates_filled_by_code": false,
+      "meal_times": [],
+      "break_times": []
+    },
+    {
+      "employee_name": "Yuki Tanaka",
+      "clock_in_date": "2026-11-02",
+      "clock_in_time": "08:00:00",
+      "clock_out_date": "2026-11-02",
+      "clock_out_time": "16:00:00",
+      "job_assignment": "Bakery",
+      "day_of_week": "Monday",
+      "confidence": {
+        "employee_name": 1,
+        "clock_in_date": 1,
+        "clock_in_time": 1,
+        "clock_out_date": 1,
+        "clock_out_time": 1,
+        "job_assignment": 1
+      },
+      "dates_filled_by_code": false,
+      "meal_times": [],
+      "break_times": []
+    },
+    {
+      "employee_name": "Yuki Tanaka",
+      "clock_in_date": "2026-11-03",
+      "clock_in_time": "08:00:00",
+      "clock_out_date": "2026-11-03",
+      "clock_out_time": "16:00:00",
+      "job_assignment": "Bakery",
+      "day_of_week": "Tuesday",
+      "confidence": {
+        "employee_name": 1,
+        "clock_in_date": 1,
+        "clock_in_time": 1,
+        "clock_out_date": 1,
+        "clock_out_time": 1,
+        "job_assignment": 1
+      },
+      "dates_filled_by_code": false,
+      "meal_times": [],
+      "break_times": []
+    },
+    {
+      "employee_name": "Yuki Tanaka",
+      "clock_in_date": "2026-11-05",
+      "clock_in_time": "16:00:00",
+      "clock_out_date": "2026-11-05",
+      "clock_out_time": "22:00:00",
+      "job_assignment": "Bakery",
+      "day_of_week": "Thursday",
+      "confidence": {
+        "employee_name": 1,
+        "clock_in_date": 1,
+        "clock_in_time": 1,
+        "clock_out_date": 1,
+        "clock_out_time": 1,
+        "job_assignment": 1
+      },
+      "dates_filled_by_code": false,
+      "meal_times": [],
+      "break_times": []
+    },
+    {
+      "employee_name": "Yuki Tanaka",
+      "clock_in_date": "2026-11-06",
+      "clock_in_time": "16:00:00",
+      "clock_out_date": "2026-11-06",
+      "clock_out_time": "22:00:00",
+      "job_assignment": "Bakery",
+      "day_of_week": "Friday",
+      "confidence": {
+        "employee_name": 1,
+        "clock_in_date": 1,
+        "clock_in_time": 1,
+        "clock_out_date": 1,
+        "clock_out_time": 1,
+        "job_assignment": 1
+      },
+      "dates_filled_by_code": false,
+      "meal_times": [],
+      "break_times": []
+    },
+    {
+      "employee_name": "Isabella Silva",
+      "clock_in_date": "2026-11-02",
+      "clock_in_time": "14:00:00",
+      "clock_out_date": "2026-11-02",
+      "clock_out_time": "22:00:00",
+      "job_assignment": "Deli",
+      "day_of_week": "Monday",
+      "confidence": {
+        "employee_name": 1,
+        "clock_in_date": 1,
+        "clock_in_time": 1,
+        "clock_out_date": 1,
+        "clock_out_time": 1,
+        "job_assignment": 1
+      },
+      "dates_filled_by_code": false,
+      "meal_times": [],
+      "break_times": []
+    },
+    {
+      "employee_name": "Isabella Silva",
+      "clock_in_date": "2026-11-03",
+      "clock_in_time": "07:00:00",
+      "clock_out_date": "2026-11-03",
+      "clock_out_time": "15:00:00",
+      "job_assignment": "Deli",
+      "day_of_week": "Tuesday",
+      "confidence": {
+        "employee_name": 1,
+        "clock_in_date": 1,
+        "clock_in_time": 1,
+        "clock_out_date": 1,
+        "clock_out_time": 1,
+        "job_assignment": 1
+      },
+      "dates_filled_by_code": false,
+      "meal_times": [],
+      "break_times": []
+    },
+    {
+      "employee_name": "Isabella Silva",
+      "clock_in_date": "2026-11-04",
+      "clock_in_time": "14:00:00",
+      "clock_out_date": "2026-11-04",
+      "clock_out_time": "22:00:00",
+      "job_assignment": "Deli",
+      "day_of_week": "Wednesday",
+      "confidence": {
+        "employee_name": 1,
+        "clock_in_date": 1,
+        "clock_in_time": 1,
+        "clock_out_date": 1,
+        "clock_out_time": 1,
+        "job_assignment": 1
+      },
+      "dates_filled_by_code": false,
+      "meal_times": [],
+      "break_times": []
+    },
+    {
+      "employee_name": "Isabella Silva",
+      "clock_in_date": "2026-11-05",
+      "clock_in_time": "07:00:00",
+      "clock_out_date": "2026-11-05",
+      "clock_out_time": "15:00:00",
+      "job_assignment": "Deli",
+      "day_of_week": "Thursday",
+      "confidence": {
+        "employee_name": 1,
+        "clock_in_date": 1,
+        "clock_in_time": 1,
+        "clock_out_date": 1,
+        "clock_out_time": 1,
+        "job_assignment": 1
+      },
+      "dates_filled_by_code": false,
+      "meal_times": [],
+      "break_times": []
+    },
+    {
+      "employee_name": "Isabella Silva",
+      "clock_in_date": "2026-11-06",
+      "clock_in_time": "07:00:00",
+      "clock_out_date": "2026-11-06",
+      "clock_out_time": "15:00:00",
+      "job_assignment": "Deli",
+      "day_of_week": "Friday",
+      "confidence": {
+        "employee_name": 1,
+        "clock_in_date": 1,
+        "clock_in_time": 1,
+        "clock_out_date": 1,
+        "clock_out_time": 1,
+        "job_assignment": 1
+      },
+      "dates_filled_by_code": false,
+      "meal_times": [],
+      "break_times": []
+    },
+    {
+      "employee_name": "Ali Rahman",
+      "clock_in_date": "2026-11-02",
+      "clock_in_time": "08:00:00",
+      "clock_out_date": "2026-11-02",
+      "clock_out_time": "16:00:00",
+      "job_assignment": "Customer Service",
+      "day_of_week": "Monday",
+      "confidence": {
+        "employee_name": 1,
+        "clock_in_date": 1,
+        "clock_in_time": 1,
+        "clock_out_date": 1,
+        "clock_out_time": 1,
+        "job_assignment": 1
+      },
+      "dates_filled_by_code": false,
+      "meal_times": [],
+      "break_times": []
+    },
+    {
+      "employee_name": "Sara Lindqvist",
+      "clock_in_date": "2026-11-02",
+      "clock_in_time": "09:00:00",
+      "clock_out_date": "2026-11-02",
+      "clock_out_time": "17:00:00",
+      "job_assignment": "Cashier",
+      "day_of_week": "Monday",
+      "confidence": {
+        "employee_name": 1,
+        "clock_in_date": 1,
+        "clock_in_time": 1,
+        "clock_out_date": 1,
+        "clock_out_time": 1,
+        "job_assignment": 1
+      },
+      "dates_filled_by_code": false,
+      "meal_times": [],
+      "break_times": []
+    },
+    {
+      "employee_name": "Sara Lindqvist",
+      "clock_in_date": "2026-11-04",
+      "clock_in_time": "08:30:00",
+      "clock_out_date": "2026-11-04",
+      "clock_out_time": "13:00:00",
+      "job_assignment": "Cashier",
+      "day_of_week": "Wednesday",
+      "confidence": {
+        "employee_name": 1,
+        "clock_in_date": 1,
+        "clock_in_time": 1,
+        "clock_out_date": 1,
+        "clock_out_time": 1,
+        "job_assignment": 1
+      },
+      "dates_filled_by_code": false,
+      "meal_times": [],
+      "break_times": []
+    },
+    {
+      "employee_name": "Sara Lindqvist",
+      "clock_in_date": "2026-11-05",
+      "clock_in_time": "09:00:00",
+      "clock_out_date": "2026-11-05",
+      "clock_out_time": "17:00:00",
+      "job_assignment": "Cashier",
+      "day_of_week": "Thursday",
+      "confidence": {
+        "employee_name": 1,
+        "clock_in_date": 1,
+        "clock_in_time": 1,
+        "clock_out_date": 1,
+        "clock_out_time": 1,
+        "job_assignment": 1
+      },
+      "dates_filled_by_code": false,
+      "meal_times": [],
+      "break_times": []
+    },
+    {
+      "employee_name": "Sara Lindqvist",
+      "clock_in_date": "2026-11-06",
+      "clock_in_time": "08:30:00",
+      "clock_out_date": "2026-11-06",
+      "clock_out_time": "13:00:00",
+      "job_assignment": "Cashier",
+      "day_of_week": "Friday",
+      "confidence": {
+        "employee_name": 1,
+        "clock_in_date": 1,
+        "clock_in_time": 1,
+        "clock_out_date": 1,
+        "clock_out_time": 1,
+        "job_assignment": 1
+      },
+      "dates_filled_by_code": false,
+      "meal_times": [],
+      "break_times": []
+    },
+    {
+      "employee_name": "Omar Haddad",
+      "clock_in_date": "2026-11-02",
+      "clock_in_time": "12:00:00",
+      "clock_out_date": "2026-11-02",
+      "clock_out_time": "20:00:00",
+      "job_assignment": "Cashier",
+      "day_of_week": "Monday",
+      "confidence": {
+        "employee_name": 1,
+        "clock_in_date": 1,
+        "clock_in_time": 1,
+        "clock_out_date": 1,
+        "clock_out_time": 1,
+        "job_assignment": 1
+      },
+      "dates_filled_by_code": false,
+      "meal_times": [],
+      "break_times": []
+    },
+    {
+      "employee_name": "Omar Haddad",
+      "clock_in_date": "2026-11-03",
+      "clock_in_time": "08:00:00",
+      "clock_out_date": "2026-11-03",
+      "clock_out_time": "16:00:00",
+      "job_assignment": "Cashier",
+      "day_of_week": "Tuesday",
+      "confidence": {
+        "employee_name": 1,
+        "clock_in_date": 1,
+        "clock_in_time": 1,
+        "clock_out_date": 1,
+        "clock_out_time": 1,
+        "job_assignment": 1
+      },
+      "dates_filled_by_code": false,
+      "meal_times": [],
+      "break_times": []
+    },
+    {
+      "employee_name": "Omar Haddad",
+      "clock_in_date": "2026-11-04",
+      "clock_in_time": "08:00:00",
+      "clock_out_date": "2026-11-04",
+      "clock_out_time": "16:00:00",
+      "job_assignment": "Cashier",
+      "day_of_week": "Wednesday",
+      "confidence": {
+        "employee_name": 1,
+        "clock_in_date": 1,
+        "clock_in_time": 1,
+        "clock_out_date": 1,
+        "clock_out_time": 1,
+        "job_assignment": 1
+      },
+      "dates_filled_by_code": false,
+      "meal_times": [],
+      "break_times": []
+    },
+    {
+      "employee_name": "Omar Haddad",
+      "clock_in_date": "2026-11-05",
+      "clock_in_time": "12:00:00",
+      "clock_out_date": "2026-11-05",
+      "clock_out_time": "20:00:00",
+      "job_assignment": "Cashier",
+      "day_of_week": "Thursday",
+      "confidence": {
+        "employee_name": 1,
+        "clock_in_date": 1,
+        "clock_in_time": 1,
+        "clock_out_date": 1,
+        "clock_out_time": 1,
+        "job_assignment": 1
+      },
+      "dates_filled_by_code": false,
+      "meal_times": [],
+      "break_times": []
+    },
+    {
+      "employee_name": "Chloe Bouchard",
+      "clock_in_date": "2026-11-02",
+      "clock_in_time": "16:00:00",
+      "clock_out_date": "2026-11-02",
+      "clock_out_time": "22:00:00",
+      "job_assignment": "Customer Service",
+      "day_of_week": "Monday",
+      "confidence": {
+        "employee_name": 1,
+        "clock_in_date": 1,
+        "clock_in_time": 1,
+        "clock_out_date": 1,
+        "clock_out_time": 1,
+        "job_assignment": 1
+      },
+      "dates_filled_by_code": false,
+      "meal_times": [],
+      "break_times": []
+    },
+    {
+      "employee_name": "Chloe Bouchard",
+      "clock_in_date": "2026-11-03",
+      "clock_in_time": "16:00:00",
+      "clock_out_date": "2026-11-03",
+      "clock_out_time": "22:00:00",
+      "job_assignment": "Customer Service",
+      "day_of_week": "Tuesday",
+      "confidence": {
+        "employee_name": 1,
+        "clock_in_date": 1,
+        "clock_in_time": 1,
+        "clock_out_date": 1,
+        "clock_out_time": 1,
+        "job_assignment": 1
+      },
+      "dates_filled_by_code": false,
+      "meal_times": [],
+      "break_times": []
+    },
+    {
+      "employee_name": "Chloe Bouchard",
+      "clock_in_date": "2026-11-04",
+      "clock_in_time": "08:30:00",
+      "clock_out_date": "2026-11-04",
+      "clock_out_time": "13:00:00",
+      "job_assignment": "Customer Service",
+      "day_of_week": "Wednesday",
+      "confidence": {
+        "employee_name": 1,
+        "clock_in_date": 1,
+        "clock_in_time": 1,
+        "clock_out_date": 1,
+        "clock_out_time": 1,
+        "job_assignment": 1
+      },
+      "dates_filled_by_code": false,
+      "meal_times": [],
+      "break_times": []
+    },
+    {
+      "employee_name": "Chloe Bouchard",
+      "clock_in_date": "2026-11-05",
+      "clock_in_time": "08:30:00",
+      "clock_out_date": "2026-11-05",
+      "clock_out_time": "13:00:00",
+      "job_assignment": "Customer Service",
+      "day_of_week": "Thursday",
+      "confidence": {
+        "employee_name": 1,
+        "clock_in_date": 1,
+        "clock_in_time": 1,
+        "clock_out_date": 1,
+        "clock_out_time": 1,
+        "job_assignment": 1
+      },
+      "dates_filled_by_code": false,
+      "meal_times": [],
+      "break_times": []
+    },
+    {
+      "employee_name": "Chloe Bouchard",
+      "clock_in_date": "2026-11-06",
+      "clock_in_time": "16:00:00",
+      "clock_out_date": "2026-11-06",
+      "clock_out_time": "22:00:00",
+      "job_assignment": "Customer Service",
+      "day_of_week": "Friday",
+      "confidence": {
+        "employee_name": 1,
+        "clock_in_date": 1,
+        "clock_in_time": 1,
+        "clock_out_date": 1,
+        "clock_out_time": 1,
+        "job_assignment": 1
+      },
+      "dates_filled_by_code": false,
+      "meal_times": [],
+      "break_times": []
+    }
+  ]
+}
